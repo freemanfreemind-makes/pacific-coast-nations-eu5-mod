@@ -1,0 +1,43 @@
+accessory_genes = {
+
+	INJECT_OR_CREATE:headwear = {
+
+		pcn_headwear = {
+			index = 80
+			male = {
+				1 = male_headwear_pcn_low_straw_hat
+			}
+			#female = {
+			#	1 =
+			#}
+			boy = male
+			girl = female
+			adolescent_boy = boy
+			adolescent_girl = girl
+			infant = {}
+		}
+
+	}
+
+	# INJECT_OR_CREATE:clothes = {
+
+		# cfp_placeholder = {
+			# index = 100
+			# male = {
+				# 1 = empty
+			# }
+			# female = {
+				# 1 = empty
+			# }
+			# boy = male
+			# girl = female
+			# adolescent_boy = boy
+			# adolescent_girl = girl
+			# infant = {
+				# 1 = infant_cloth_swaddle_basic
+			# }
+		# }
+
+	# }
+
+}

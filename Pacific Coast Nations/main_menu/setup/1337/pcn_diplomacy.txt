@@ -1,0 +1,9 @@
+diplomacy_manager = {
+    #---------------Pacific Coast Nations Mod--------------
+    scripted_mutual = { first = SQH second = TWN type = alliance }
+    scripted_mutual = { first = WSN second = LHQ type = alliance }
+    scripted_mutual = { first = SWP second = KTX type = alliance }
+    scripted_mutual = { first = DKL second = WST type = alliance }
+    #dependency = { first = CNK second = KLP subject_type = tributary }
+    #dependency = { first = NYK second = SYK subject_type = tributary }
+}

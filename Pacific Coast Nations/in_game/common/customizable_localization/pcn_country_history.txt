@@ -1,0 +1,23 @@
+﻿#TRY_INJECT:country_history = {
+#	type = country
+
+#	# Tag specific. Please keep alphabetical order
+
+
+	# Generic Cultures
+	# America
+
+
+	# Generic Regional
+	# America
+	#Pacific Coast Nations Mod Default
+#	text = { localization_key = country_history_pcn
+#		trigger = {
+#			OR = {
+#				capital.region = region:west_coast_region capital.region = region:alaska_region
+#			}
+#		}
+#	}
+
+
+#}

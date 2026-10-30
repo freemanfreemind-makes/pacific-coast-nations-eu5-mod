@@ -1,0 +1,77 @@
+discovered_regions = {
+	#
+}
+
+discovered_areas = {
+	northwest_coast_area
+	columbia_interior_area
+	yukon_area
+	cascadia_area
+	alaxsxaq_area
+	western_arctic_area
+}
+
+discovered_provinces = {
+	strathcona_province
+	halkomelem_province
+	cascadia_province
+	olympic_province
+	chinook_province
+	oregon_province
+	wetsuweten_province
+	lake_dakelh_province
+	river_dakelh_province
+	chilcotin_province
+	columbia_basin_province
+
+	kugmiut_coast_sea_zones_province
+	kavagmiut_coast_sea_zones_province
+	kaialigamiut_coast_sea_zones_province
+	bering_sea_zones_province
+	unalaska_coast_sea_zones_province
+	alutiiq_sea_zones_province
+}
+
+discovered_locations = {
+	bering_sea
+	chirikof_island
+	larsen_bay
+	ursus_cove
+	marmot_bay
+	k_alii_xkalaan
+	middleton_island
+	kenai_fjords
+	hinchinbrook_bay
+	galyax_coast
+	yakutat_bay
+	lituya_bay
+	yakobi_coast
+	funter_bay
+	stephens_passage
+	alexander_point
+	keku_strait
+	kiusta_point
+	metlakatla_sound
+	lax_kw_alaams
+	masset_inlet
+	moresby_coast
+	banks_coast
+	queen_charlotte_sound
+	hakai_coast
+	raft_cove
+	beaver_cove
+	cheleset_coast
+	hot_springs_cove
+	haro_strait
+	georgia_strait
+	flattery_strait
+	oyster_bay
+	kitsap_bay
+	fuca_strait
+	olympic_coast
+	grays_harbour
+	chinook_bay
+	tillamook_bay
+	newport_cove
+	coos_bay
+}

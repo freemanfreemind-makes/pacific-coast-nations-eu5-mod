@@ -1,0 +1,23 @@
+﻿#########################
+#PCN Mod City Setups
+#########################
+
+westcoast_town = {
+	market_village = 1
+	stone_quarry = 1
+	tools_guild = 1
+	mason = 1
+	tar_kiln = 1
+	granary = 1
+}
+
+westcoast_coastal_town = {
+	market_village = 1
+	stone_quarry = 1
+	tools_guild = 1
+	mason = 1
+	clay_pit = 1
+	salt_collector = 1
+}
+
+

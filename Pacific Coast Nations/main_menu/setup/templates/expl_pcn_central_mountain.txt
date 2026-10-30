@@ -1,0 +1,50 @@
+discovered_regions = {
+	#
+}
+
+discovered_areas = {
+	cascadia_area
+	great_basin_area
+	rockies_area
+	california_area
+	saskatchewan_area
+	upper_missouri_area
+	badlands_area
+	high_plains_area
+	shiewhibak_area
+	natahende_area
+}
+
+discovered_provinces = {
+	klamath_province
+	maidu_province
+	sacramento_province
+	ticutta_province
+	malheur_province
+	northeast_numu_province
+	idaho_province
+	snake_river_province
+	bannock_province
+	agaidika_province
+	apahtoksipisskan_province
+	kinaksisahtai_province
+	amisk_sipi_province
+	inotoniicaah_province
+	poyiitahtai_province
+	e_omita_i_province
+	ihkowom_iyo_he_province
+	aashise_province
+	dukundeka_province
+	iisaxpuatahcheeaashe_province
+	western_crow_province
+	sweetwater_province
+	grand_teton_province
+	bear_river_province
+	kusiutta_province
+	west_shoshone_province
+	humboldt_province
+}
+
+discovered_locations = {
+	#
+}

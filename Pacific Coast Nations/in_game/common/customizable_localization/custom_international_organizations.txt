@@ -1,0 +1,7 @@
+#tribal_confederation_culture_name = {
+#	type = international_organization
+#	text = {
+#		localization_key = tribal_confederation_culture
+#		fallback = yes
+#	}
+#}

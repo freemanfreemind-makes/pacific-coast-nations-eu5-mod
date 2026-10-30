@@ -1,0 +1,40 @@
+discovered_regions = {
+	#
+}
+
+discovered_areas = {
+	cascadia_area
+	saskatchewan_area
+	upper_missouri_area
+	badlands_area
+	athabasca_area
+	columbia_interior_area
+	rockies_area
+	great_basin_area
+}
+
+discovered_provinces = {
+	river_dakelh_province
+	mountain_dakelh_province
+	lake_dakelh_province
+	south_sekani_province
+	wetsuweten_province
+	kwakwala_province
+	sakwatamau_province
+	pembina_province
+	apahtoksipisskan_province
+	kinaksisahtai_province
+	amisk_sipi_province
+	notinito_sipiy_province
+	michichi_province
+	waskasoo_province
+	inotoniicaah_province
+	poyiitahtai_province
+}
+
+discovered_locations = {
+	nisga_a
+	k_alii_xkalaan
+	gitxsanimaax
+	sm_algyax
+}

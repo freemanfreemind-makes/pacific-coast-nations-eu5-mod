@@ -1,0 +1,6 @@
+##PCN Clothes
+##Headwear
+##Test with import of base chinese straw hat to learn
+male_headwear_pcn_low_straw_hat = {
+	set_tags = "hair_covered"
+	entity = { required_tags = ""			shared_pose_entity = head   entity = male_headwear_pcn_low_straw_hat_entity   }

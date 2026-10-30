@@ -1,0 +1,232 @@
+﻿TRY_REPLACE:learn_from_foreigners = {
+	type = situation
+
+	ai_tick = daily
+	ai_tick_frequency = 40
+	automation_tick = daily
+	automation_tick_frequency = 7
+
+	
+	potential = {
+		scope:actor ?= {
+			culture = { is_culture_native_american =yes }
+		}
+	}
+
+	allow = {
+	}
+
+	ai_tick = monthly
+	ai_tick_frequency = 12
+
+	automation_tick = never
+	automation_tick_frequency = 12
+
+	price = price:learn_from_foreigners
+	
+	cooldown = {
+		type = learn_from_foreigners
+		years = 1
+	}
+
+	#Select our Situation
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:columbian_exchange = this
+			situation_is_active = yes
+		}
+	}
+	
+	select_trigger = {
+		looking_for_a = country
+		source = actor
+		source_flags = diplomatic_range
+		target_flag = target
+		name = "choose_country"
+		none_available_msg_key = "no_valid_countries"
+		column = { data = name }
+		enabled = {
+			NOT = { is_at_war_with = scope:actor }
+			culture ?= {
+				NOT = {
+					is_culture_native_american =yes
+				}
+			}
+			num_of_advances_researched > scope:actor.num_of_advances_researched
+			is_discovered_by = scope:actor
+		}
+	}
+
+	#Get Research
+	effect = {
+		if = {
+			limit = {exists = scope:target}
+			scope:actor ?= { 
+				add_research_progress = {				
+					if = {
+						limit = { research_delta > 20  }
+						value = research_progress_ultimate_bonus
+					}
+					else_if = {
+						limit = { research_delta > 15  }
+						value = research_progress_extreme_bonus
+					}
+					else_if = {
+						limit = { research_delta > 10  }
+						value = research_progress_severe_bonus
+					}
+					else_if = {
+						limit = { research_delta > 5  }
+						value = research_progress_mild_bonus
+					}
+					else = {
+						value = research_progress_weak_bonus
+					}
+				}
+				add_trust_equilibrium = {
+					modifier = trust_learn_from_foreigners
+					target = scope:target
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		add = 5
+	}
+}
+
+TRY_REPLACE:absorb_institutions = {
+	type = situation
+	
+	potential = {
+		scope:actor ?= {
+			culture = { is_culture_native_american =yes }
+		}
+	}
+
+	allow = {
+	}
+
+	ai_tick = monthly
+	ai_tick_frequency = 12
+	automation_tick = monthly
+	automation_tick_frequency = 3
+
+	price = price:absorb_institutions
+	
+	cooldown = {
+		type = absorb_institutions
+		years = 1
+	}
+
+	#Select our Situation
+	select_trigger = {
+		looking_for_a = situation
+		target_flag = recipient
+		name = "choose_situation"
+		column = { data = name }
+		visible = {
+			situation:columbian_exchange = this
+			situation_is_active = yes
+		}
+	}
+	
+	select_trigger = {
+		looking_for_a = country
+		source = actor
+		source_flags = diplomatic_range
+		target_flag = target
+		name = "choose_country"
+		none_available_msg_key = "no_valid_countries"
+		column = { data = name }
+		visible = {
+			NOT = { is_at_war_with = scope:actor }
+			culture ?= {
+				NOT = {
+					is_culture_native_american =yes
+				}
+			}
+			num_embraced_institutions > scope:actor.num_embraced_institutions
+			OR = {
+				is_discovered_by = scope:actor
+				is_neighbor_of = scope:actor
+			}
+		}
+	}
+
+	select_trigger = {
+		looking_for_a = institution
+		source = target
+		target_flag = target_institution
+		name = "choose_institution"
+		none_available_msg_key = "no_valid_institution"
+		column = { data = name }
+		visible = {
+			scope:target = { has_embraced_institution = root }
+		}
+	}
+
+	#Get Institution Progress
+	effect = {
+		scope:target ?= {
+			random_institutions_embraced = {
+				limit = {
+					NOT = { scope:actor = { has_embraced_institution = prev } }
+				}				
+				save_scope_as = institution_scope
+			}
+		}
+		if = {
+			limit = { 
+				exists = scope:target 
+				exists = scope:target_institution
+			}
+			scope:actor ?= {
+				every_owned_location = {				
+					limit = { is_province_capital = yes }
+									
+					if = {
+						limit = { scope:actor.institutions_delta > 3  }
+						change_institution_progress = { 
+							type = scope:target_institution
+							value = institution_progress_extreme_bonus
+						}
+					}
+					else_if = {
+						limit = { scope:actor.institutions_delta > 2  }
+						change_institution_progress = { 
+							type = scope:target_institution
+							value = institution_progress_severe_bonus
+						}
+					}
+					else_if = {
+						limit = { scope:actor.institutions_delta > 1  }
+						change_institution_progress = { 
+							type = scope:target_institution
+							value = institution_progress_mild_bonus
+						}
+					}
+					else = {
+						change_institution_progress = { 
+							type = scope:target_institution
+							value = institution_progress_weak_bonus
+						}
+					}
+				}
+				add_trust_equilibrium = {
+					modifier = trust_absorb_institutions
+					target = scope:target
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		add = 5
+	}
+}

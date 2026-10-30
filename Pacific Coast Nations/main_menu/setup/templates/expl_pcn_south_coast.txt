@@ -1,0 +1,43 @@
+discovered_regions = {
+	#
+}
+
+discovered_areas = {
+	california_area
+	great_basin_area
+	cascadia_area
+}
+
+discovered_provinces = {
+		oregon_province
+		chinook_province
+		olympic_province
+		molalla_province
+}
+
+discovered_locations = {
+	olympic_coast
+	grays_harbour
+	chinook_bay
+	tillamook_bay
+	newport_cove
+	coos_bay
+	nesika_beach
+	shleter_cove
+	humboldty_bay
+	lost_coast
+	mendocino_cape
+	sonoma_coast
+	marin_coast
+	san_francisco_bay
+	elkhorn_bay
+	santa_cruz_cove
+	monterey_coast
+	santa_barbara_coast
+	los_angeles_bay
+	orange_cove
+	san_diego_bay
+	south_canal
+	north_canal
+	san_catalina_island
+}

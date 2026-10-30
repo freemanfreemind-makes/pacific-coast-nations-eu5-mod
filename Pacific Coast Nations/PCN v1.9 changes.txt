@@ -1,0 +1,7 @@
+PCN 1.9 Changes
+
+Consolidated mod files to have fewer individual mod files.
+Pops are now additive so that the base game pops file is no longer needed in the mod files.
+Some IOs reimplemented to rebalance from the AI agression changes made by PDX
+Custom AI personalities removed temporarily until a better feel for AI balance is achieved.
+Many, many, MANY small bug fixes across the entire mod.

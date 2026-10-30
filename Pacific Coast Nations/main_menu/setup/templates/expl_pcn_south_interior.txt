@@ -1,0 +1,45 @@
+discovered_regions = {
+	#
+}
+
+discovered_areas = {
+	great_basin_area
+	rockies_area
+	shiewhibak_area
+	california_area
+	high_plains_area
+	natahende_area
+}
+
+discovered_provinces = {
+	aashise_province
+	south_selish_province
+	north_selish_province
+	kalispel_province
+	columbia_plateau_province
+	yakama_province
+	nimiipuu_province
+	sahaptin_province
+	northwest_numu_province
+	molalla_province
+	klamath_province
+	maidu_province
+	sacramento_province
+	miwok_province
+	northern_yokut_province
+	southern_yokut_province
+	mojave_province
+	niineniiniicie_province
+	wotapio_province
+	hehvaitaneo_province
+	iisaxpuatahcheeaashe_province
+}
+
+discovered_locations = {
+	mutsisooni_yohe
+	heeyoteyoo
+	watlala
+	multnomah
+	chinook
+	stlpulmsh
+}

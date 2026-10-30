@@ -1,0 +1,69 @@
+﻿REPLACE:slave_market = {
+	audio_tier = 2
+	is_foreign = no
+	max_levels = slave_market_max_level
+	startup_ramp_target = rural_startup_ramp_target
+	pop_type = burghers
+
+	category = government_category
+
+
+	employment_size = trade_employment
+
+	rural_settlement = no
+	town = yes
+	city = yes
+	megalopolis = yes
+
+	country_potential = {
+		religion ?= {
+			group != religion_group:christian
+		}
+	}
+
+	allow = {
+		scope:actor = {
+			has_slavery = yes
+		}
+	}
+
+	remove_if = {
+		scope:actor = {
+			has_slavery = no
+		}
+	}
+
+	build_time = generic_town_build_time
+
+	unique_production_methods = {
+
+		slave_market_maintenance2 = {
+			leather = 0.35
+			tools = 0.3
+			weaponry = 0.25
+			paper = 0.25
+			slaves_goods = 0.5
+			produced = slaves_goods
+			output = 2.0
+			category = building_maintenance
+			}
+
+		slave_trader_maintenance = {
+			leather = 0.3
+			tools = 0.3
+			weaponry = 0.2
+			cloth = 0.1
+			slaves_goods = 0.5
+			produced = slaves_goods
+			output = 1.5
+			category = building_maintenance
+			}
+	}
+
+	modifier = {
+		building_enslavement_power = 0.10
+		local_slave_pop_satisfaction = -0.025
+	}
+
+	construction_demand = town_building_construction
+}

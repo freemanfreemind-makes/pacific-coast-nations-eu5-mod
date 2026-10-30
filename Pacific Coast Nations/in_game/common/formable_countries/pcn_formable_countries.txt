@@ -1,0 +1,172 @@
+﻿NYK0_f = {
+
+    level = 2
+    required_locations_fraction = 0.6
+    rule = plausible
+
+	potential = {
+		OR = {
+			culture = culture:north_valley_yokut_culture
+			culture = culture:south_valley_yokut_culture
+			culture = culture:foothill_yokut_culture
+		}
+	}
+
+	allow = {
+		OR = {
+			culture = culture:north_valley_yokut_culture
+			culture = culture:south_valley_yokut_culture
+			culture = culture:foothill_yokut_culture
+		}
+	}
+
+	name = NYK0
+	flag = NYK0
+	adjective = NYK0_ADJ
+	tag = NYK0
+	color = map_north_valley_yokut
+	locations = {
+		yashikumne
+		tawalimni
+		chawchila
+		noptinte
+		tachi
+		pitkachi
+		koyeti
+		gashowu
+		yawdanshi
+		tulumni
+		hometwoli
+	}
+
+	form_effect = {
+	}
+
+}
+
+
+CMH0_f = {
+
+    level = 2
+    required_locations_fraction = 0.75
+    rule = plausible
+
+	potential = {
+		OR = {
+			culture = culture:chumash_culture
+			culture = culture:tongva_culture
+		}
+	}
+
+	allow = {
+		OR = {
+			culture = culture:chumash_culture
+			culture = culture:tongva_culture
+		}
+	}
+
+	name = CMH0
+	flag = CMH0
+	adjective = CMH0_ADJ
+	tag = CMH0
+	color = map_chumash
+	locations = {
+		ineseno
+		ventureno
+		pimuu_nga
+		yaanga
+		kukamonga
+		payomkawichum
+	}
+
+	form_effect = {
+	}
+
+}
+
+NMU0_f = {
+
+    level = 2
+    required_locations_fraction = 0.75
+    rule = plausible
+
+    potential = {
+    culture = culture:numu_culture
+	}
+
+    allow = {
+	}
+
+	name = NMU0
+	flag = NMU0
+	adjective = NMU0_ADJ
+	tag = NMU0
+	color = map_numu
+	locations = {
+		tinainu
+		crook
+		grant
+		arock
+		kidutokado
+		chewaucan
+		silver_lake
+		tsitsiadi
+		wadadokado
+		malheur
+		gidi_tika
+		moadokado
+		panina_ticutta
+		kamu_ticutta
+		cui_yui_ticutta
+		agai_ticutta
+		koop_ticutta
+		kupadokado
+		humbokado
+		sawawaktodo
+		makuhadokado
+		winnemucca
+	}
+
+	form_effect = {
+	}
+
+}
+
+HLM_f = {
+
+    level = 2
+    required_locations_fraction = 0.6
+    rule = plausible
+
+	potential = {
+		OR = {
+			culture = culture:halkomelem_culture
+			culture = culture:squamish_culture
+		}
+	}
+
+	allow = {
+		OR = {
+			culture = culture:halkomelem_culture
+			culture = culture:squamish_culture
+		}
+	}
+
+	name = HLM
+	flag = HLM
+	adjective = HLM_ADJ
+	tag = HLM
+	color = map_halkomelem
+	locations = {
+		stz_uminus
+		katzie
+		nooksack
+		sto_lo
+		sts_ailes
+		whonnock
+	}
+
+	form_effect = {
+	}
+
+}

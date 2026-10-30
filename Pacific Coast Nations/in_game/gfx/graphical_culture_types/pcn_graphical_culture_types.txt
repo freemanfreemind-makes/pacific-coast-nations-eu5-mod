@@ -1,0 +1,7 @@
+﻿pcn_gfx = {
+	priority = 300 # region
+	culture_tag = pcn_gfx
+	ethnicities = {
+		10 = pcn_ethnicity
+	}
+}

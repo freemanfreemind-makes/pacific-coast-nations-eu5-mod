@@ -1,0 +1,92 @@
+discovered_regions = {
+	#
+}
+
+discovered_areas = {
+	cascadia_area
+	northwest_coast_area
+	california_area
+	great_basin_area
+	columbia_interior_area
+	california_area
+}
+
+discovered_provinces = {
+	tsimshian_province
+	kwakwala_province
+	northern_vancouver_province
+	southern_vancouver_province
+	strathcona_province
+	halkomelem_province
+	cascadia_province
+	olympic_province
+	chinook_province
+	oregon_province
+	yuru_kyara_province
+	sequoyah_province
+	pomo_province
+	klamath_province
+	takelma_province
+	shasta_province
+	nomlaki_province
+}
+
+discovered_locations = {
+	middleton_island
+	kenai_fjords
+	hinchinbrook_bay
+	galyax_coast
+	yakutat_bay
+	lituya_bay
+	yakobi_coast
+	funter_bay
+	stephens_passage
+	alexander_point
+	keku_strait
+	kiusta_point
+	metlakatla_sound
+	lax_kw_alaams
+	masset_inlet
+	moresby_coast
+	banks_coast
+	queen_charlotte_sound
+	hakai_coast
+	raft_cove
+	beaver_cove
+	cheleset_coast
+	hot_springs_cove
+	haro_strait
+	georgia_strait
+	flattery_strait
+	oyster_bay
+	kitsap_bay
+	fuca_strait
+	olympic_coast
+	grays_harbour
+	chinook_bay
+	tillamook_bay
+	newport_cove
+	coos_bay
+	nesika_beach
+	shleter_cove
+	humboldty_bay
+	lost_coast
+	mendocino_cape
+	sonoma_coast
+	marin_coast
+	san_francisco_bay
+	elkhorn_bay
+	santa_cruz_cove
+	monterey_coast
+	santa_barbara_coast
+	los_angeles_bay
+	orange_cove
+	san_diego_bay
+	south_canal
+	north_canal
+	san_catalina_island
+
+	k_alii_xkalaan
+	yana
+	seneca
+}

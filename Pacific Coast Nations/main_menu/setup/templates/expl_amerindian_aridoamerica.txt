@@ -1,0 +1,22 @@
+discovered_regions = {
+	aridoamerica_region
+	mesoamerica_region
+}
+
+discovered_areas = {
+	california_area
+	great_basin_area
+	rockies_area
+	high_plains_area
+	central_plains_area
+	missouri_area
+	arkansas_area
+	louisiana_area
+	gulf_of_mexico_area
+}
+
+discovered_provinces = {
+	los_angeles_sea_zones_province
+	san_francisco_sea_zones_province
+	oregon_sea_zones_province
+}

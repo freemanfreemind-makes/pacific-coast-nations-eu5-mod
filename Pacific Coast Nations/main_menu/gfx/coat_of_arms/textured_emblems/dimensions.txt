@@ -1,0 +1,4 @@
+all flags
+390w
+260h
+.dds file format

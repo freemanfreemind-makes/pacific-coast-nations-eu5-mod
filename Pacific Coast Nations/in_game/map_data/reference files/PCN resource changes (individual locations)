@@ -1,0 +1,20 @@
+#PCN resourse changes (individual) update in "in_game/map_data/location_templates.txt"
+
+saanich = { topography = flatland vegetation = forest climate = oceanic religion = salishan_totemism culture = saanich_culture raw_material = stone natural_harbor_suitability = 0.75}
+pentlatch = { topography = hills vegetation = forest climate = oceanic religion = salishan_totemism culture = k_omoks_culture raw_material = fruit natural_harbor_suitability = 0.10}
+yuquot = { topography = mountains vegetation = forest climate = oceanic religion = salishan_totemism culture = nootka_culture raw_material = wild_game natural_harbor_suitability = 0.10}
+sm_algyax = { topography = mountains vegetation = woods climate = continental religion = dene_totemism culture = tsimshian_culture raw_material = fish natural_harbor_suitability = 1.00}
+gwaay_haanas = { topography = mountains vegetation = forest climate = oceanic religion = dene_totemism culture = haida_culture raw_material = tin natural_harbor_suitability = 0.00}
+saanya = { topography = mountains vegetation = woods climate = continental religion = dene_totemism culture = tlingit_culture raw_material = stone natural_harbor_suitability = 0.00}
+jilkaat = { topography = mountains vegetation = forest climate = arctic religion = dene_totemism culture = tlingit_culture raw_material = copper natural_harbor_suitability = 0.00}
+
+similkameen = { topography = hills vegetation = woods climate = arctic religion = salishan_totemism culture = okanagan_culture raw_material = fruit}
+okanagan = { topography = hills vegetation = forest climate = arctic religion = salishan_totemism culture = okanagan_culture raw_material = fruit}
+st_uxwtews = { topography = plateau vegetation = forest climate = arctic religion = salishan_totemism culture = shuswap_culture raw_material = fruit}
+akinkumasnuqit = { topography = plateau vegetation = forest climate = continental religion = salishan_totemism culture = ktunaxa_culture raw_material = fruit}
+squamish = { topography = mountains vegetation = woods climate = continental religion = salishan_totemism culture = squamish_culture raw_material = copper natural_harbor_suitability = 0.10}
+sto_lo = { topography = mountains vegetation = forest climate = continental religion = salishan_totemism culture = halkomelem_culture raw_material = wool}
+nooksack = { topography = flatland vegetation = woods climate = continental religion = salishan_totemism culture = halkomelem_culture raw_material = maize}
+nisqually = { topography = flatland vegetation = forest climate = oceanic religion = salishan_totemism culture = lushootseed_culture raw_material = fruit natural_harbor_suitability = 1.00}
+multnomah = { topography = flatland vegetation = woods climate = oceanic religion = pomo_shamanism culture = chinook_culture raw_material = fruit}
+kalapuya = { topography = flatland vegetation = woods climate = oceanic religion = pomo_shamanism culture = kalapuyan_culture raw_material = fruit}

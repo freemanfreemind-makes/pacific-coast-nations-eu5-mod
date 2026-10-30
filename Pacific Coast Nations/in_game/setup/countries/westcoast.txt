@@ -1,0 +1,1097 @@
+﻿#Kalapuya
+KLP = {
+	color = map_kalapuyan
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kalapuyan_culture
+	religion_definition = pomo_shamanism
+
+	
+}
+
+#Chinook
+CNK = {
+	color = map_penutian
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = chinook_culture
+	religion_definition = pomo_shamanism
+
+	
+}
+
+#Tsamosa
+TSA = {
+	color = map_chehalis
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = chehalis_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#Chehalis
+CIS = {
+	color = map_chehalis2
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = chehalis_culture
+	religion_definition = salishan_totemism
+
+
+}
+
+#Makah
+MKH = {
+	color = map_makah
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = makah_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#S'Klallam
+SKL = {
+	color = map_sklallam
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = sklallam_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#Twana
+TWN = {
+	color = map_twana
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = twana_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#Lushootseed
+LHT = {
+	color = map_lushootseed
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = lushootseed_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#Snohomish
+SNO = {
+	color = map_lushootseed2
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = lushootseed_culture
+	religion_definition = salishan_totemism
+
+
+}
+
+#Lhaq'temish
+LHQ = {
+	color = map_lummi
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = lummi_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#Halkomelem
+#HLM = {
+#	color = map_halkomelem
+#	color2 = rgb { 39 228 191 }
+#
+#	culture_definition = halkomelem_culture
+#	religion_definition = salishan_totemism
+#
+#
+#}
+
+#Quw'utsun
+HLM1 = {
+	color = map_halkomelem
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = halkomelem_culture
+	religion_definition = salishan_totemism
+
+
+}
+
+#Musqueam
+HLM2 = {
+	color = map_musqueam
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = halkomelem_culture
+	religion_definition = salishan_totemism
+
+
+}
+
+#Sto:lo
+HLM3 = {
+	color = map_stolo
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = halkomelem_culture
+	religion_definition = salishan_totemism
+
+
+}
+
+#Saanich
+WSN = {
+	color = map_saanich
+	color2 = rgb { 214 113 188 }
+
+	culture_definition = saanich_culture
+	religion_definition = salishan_totemism
+}
+
+#Squamish
+SQH = {
+	color = map_squamish
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = squamish_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#K'omoks
+KMK = {
+	color = map_k_omoks
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = k_omoks_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#Shishalh
+KMK2 = {
+	color = map_shishalh
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = k_omoks_culture
+	religion_definition = salishan_totemism
+
+
+}
+
+#Nootkah
+NOO = {
+	color = map_nootka
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = nootka_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#Kwakiutl
+KWA = {
+	color = map_kwakiutl
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kwakiutl_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#Oowekyala
+OOW = {
+	color = map_oowekyala
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = oowekyala_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#Nuxalc
+NUX = {
+	color = map_nuxalc
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = nuxalc_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#Heiltsuk
+HLK = {
+	color = map_heiltsuk
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = heiltsuk_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#Haisla
+HLA = {
+	color = map_haisla
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = haisla_culture
+	religion_definition = salishan_totemism
+
+	
+}
+
+#Tsimishian
+TMH = {
+	color = map_tsimshian_c
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tsimshian_culture
+	religion_definition = dene_totemism
+
+	
+}
+
+#Nisga'a
+NGA = {
+	color = map_nisga
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tsimshian_culture
+	religion_definition = dene_totemism
+
+	}
+
+#Xaayda
+XDA = {
+	color = map_haida_c
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = haida_culture
+	religion_definition = dene_totemism
+
+	
+}
+
+#Tlingit
+TLG = {
+	color = map_tlingit
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tlingit_culture
+	religion_definition = dene_totemism
+
+	
+}
+
+#version 1.3 additions
+
+#Tillamook
+TLK = {
+	color = map_tillamook
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tillamook_culture
+	religion_definition = salishan_totemism
+}
+
+#Alsea
+ALX = {
+	color = map_alsea
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = alsea_culture
+	religion_definition = pomo_shamanism
+
+}
+
+#Coos
+QUU = {
+	color = map_coosian
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = coos_culture
+	religion_definition = pomo_shamanism
+
+}
+
+#Nlakpamuk
+NPK = {
+	color = map_nlakapamuk
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = nlakapamuk_culture
+	religion_definition = salishan_totemism
+}
+
+#Lillooet
+LWT = {
+	color = map_lillooet
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = lillooet_culture
+	religion_definition = salishan_totemism
+}
+
+#Tsilhqot'in
+TQN = {
+	color = map_chilcotin
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = chilcotin_culture
+	religion_definition = salishan_totemism
+}
+
+#Wet'suwet'en
+WST = {
+	color = map_wetsuweten
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = wetsuweten_culture
+	religion_definition = dene_religion
+}
+
+#Dakelh
+DKL = {
+	color = map_dakelh
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = dakelh_culture
+	religion_definition = dene_religion
+}
+
+#Secwépemc
+SWP = {
+	color = map_shuswap
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = shuswap_culture
+	religion_definition = salishan_totemism
+}
+
+#Syilix
+SLX = {
+	color = map_okanagan
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = okanagan_culture
+	religion_definition = salishan_totemism
+}
+
+#Sinixt
+SNX = {
+	color = map_sinixt
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = sinixt_culture
+	religion_definition = salishan_totemism
+}
+
+#Ktunaxa
+KTX = {
+	color = map_ktunaxan
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = ktunaxa_culture
+	religion_definition = salishan_totemism
+}
+
+#Molalla
+MLA = {
+	color = map_molalla
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = molalla_culture
+	religion_definition = pomo_shamanism
+}
+
+#Yakama
+YKM = {
+	color = map_yakama
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = yakama_culture
+	religion_definition = salishan_totemism
+}
+
+#Sinkiuse
+SNK = {
+	color = map_sinkiuse
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = sinkiuse_culture
+	religion_definition = salishan_totemism
+}
+
+#Sahaptin
+SHT = {
+	color = map_sahaptin
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = sahaptin_culture
+	religion_definition = pomo_shamanism
+}
+
+#Willetpoose
+WLP = {
+	color = map_willetpoos
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = willetpoos_culture
+	religion_definition = pomo_shamanism
+}
+
+#Palus
+PLS = {
+	color = map_palouse
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = palouse_culture
+	religion_definition = salishan_totemism
+}
+
+#Sqeliz
+SQZ = {
+	color = map_spokane
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = spokane_culture
+	religion_definition = salishan_totemism
+}
+
+#Alene
+SCN = {
+	color = map_alene
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = alene_culture
+	religion_definition = salishan_totemism
+}
+
+#Qalispé
+QLP = {
+	color = map_kalispel
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kalispel_culture
+	religion_definition = salishan_totemism
+}
+
+#Saleesh
+SLH = {
+	color = map_saleesh
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = saleesh_culture
+	religion_definition = salishan_totemism
+}
+
+#Nimiipuu
+NIM = {
+	color = map_nimiipuu
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = nimiipuu_culture
+	religion_definition = pomo_shamanism
+}
+#Banakwut
+BNK = {
+	color = map_bannock
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = bannock_culture
+	religion_definition = paiute_shamanism
+}
+
+#Dukundeka
+DKD = {
+	color = map_tukudeka
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tukudeka_culture
+	religion_definition = paiute_shamanism
+}
+
+#Agaideka
+AGD = {
+	color = map_agaideka
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = agaideka_culture
+	religion_definition = paiute_shamanism
+}
+
+#Haivodeka
+HVD = {
+	color = map_haivodika
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = haivodika_culture
+	religion_definition = paiute_shamanism
+}
+
+#Penkwideka
+PKD = {
+	color = map_penkwitikka
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = penkwitikka_culture
+	religion_definition = paiute_shamanism
+}
+
+#
+KCD = {
+	color = map_kuccuntikka
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kuccuntikka_culture
+	religion_definition = paiute_shamanism
+}
+
+#Numu
+NMU = {
+	color = map_numu
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = numu_culture
+	religion_definition = paiute_shamanism
+}
+
+#Tsitsiadi
+NMU1 = {
+	color = map_tsitsiadi
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = numu_culture
+	religion_definition = paiute_shamanism
+}
+
+#Ticutta
+NMU2 = {
+	color = map_ticutta
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = numu_culture
+	religion_definition = paiute_shamanism
+}
+
+#Humbokado
+NMU3 = {
+	color = map_humbokado
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = numu_culture
+	religion_definition = paiute_shamanism
+}
+
+#Northern California... the "shattered states" of anthropology classes... this area makes Italy of the period look unified.
+
+#Tututni
+TTT = {
+	color = map_tututni
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tututni_culture
+	religion_definition = dene_totemism
+}
+
+#Takelma
+TKL = {
+	color = map_takelma
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = takelma_culture
+	religion_definition = pomo_shamanism
+}
+
+#Ewksikni
+EKK = {
+	color = map_ewksikni
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = ewksikni_culture
+	religion_definition = pomo_shamanism
+}
+
+#Tolowa
+TOL2 = {
+	color = map_tolowa
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tolowa_culture
+	religion_definition = dene_totemism
+}
+
+#Yurok
+OOH = {
+	color = map_yurok
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = yurok_culture
+	religion_definition = pomo_shamanism
+}
+
+#Káruk
+KRU = {
+	color = map_karuk
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = karuk_culture
+	religion_definition = pomo_shamanism
+}
+
+#Shasta
+SST = {
+	color = map_shastan
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = shastan_culture
+	religion_definition = pomo_shamanism
+}
+
+#Modokni
+MDK = {
+	color = map_modokni
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = modokni_culture
+	religion_definition = pomo_shamanism
+}
+
+#Wiyot
+WYT = {
+	color = map_wiyot
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = wiyot_culture
+	religion_definition = pomo_shamanism
+}
+
+#Hupa
+HPA = {
+	color = map_hupa
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = hupa_culture
+	religion_definition = dene_totemism
+}
+
+#Tsnungwe
+TNW = {
+	color = map_tsnungwe
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tsnungwe_culture
+	religion_definition = dene_totemism
+}
+
+#Wintuan
+WIN = {
+	color = map_wintuan
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = wintuan_culture
+	religion_definition = pomo_shamanism
+}
+
+#Achomawi
+AMW = {
+	color = map_achomawi
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = achomawi_culture
+	religion_definition = pomo_shamanism
+}
+
+#Maiduan
+MDU = {
+	color = map_maiduan
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = maiduan_culture
+	religion_definition = pomo_shamanism
+}
+
+#Mattole
+MTL = {
+	color = map_mattole
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = mattole_culture
+	religion_definition = pomo_shamanism
+}
+
+#Nongatl
+NNG = {
+	color = map_nongatl
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = nongatl_culture
+	religion_definition = pomo_shamanism
+}
+
+#Yuki
+YKI = {
+	color = map_yuki
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = yuki_culture
+	religion_definition = pomo_shamanism
+}
+
+#Nomlaki
+NML = {
+	color = map_nomlaki
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = nomlaki_culture
+	religion_definition = pomo_shamanism
+}
+
+#Koyoongkawi
+KGW0 = {
+	color = map_koyoongkawi
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = koyoongkawi_culture
+	religion_definition = pomo_shamanism
+}
+
+#Nisena'n
+NSN = {
+	color = map_nisenan
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = nisenan_culture
+	religion_definition = pomo_shamanism
+}
+
+#Waashiw
+WHW = {
+	color = map_waashiw
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = waashiw_culture
+	religion_definition = pomo_shamanism
+}
+
+#Pomo
+PMO = {
+	color = map_pomo
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = pomo_culture
+	religion_definition = pomo_shamanism
+}
+
+#Micewal
+MWL = {
+	color = map_wappo
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = wappo_culture
+	religion_definition = pomo_shamanism
+}
+
+#Miwok
+MWK = {
+	color = map_miwok
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = miwok_culture
+	religion_definition = pomo_shamanism
+}
+
+#Patwin
+PWN = {
+	color = map_patwin
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = patwin_culture
+	religion_definition = pomo_shamanism
+}
+
+#Ohlone
+OHL = {
+	color = map_ohlone
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = ohlone_culture
+	religion_definition = pomo_shamanism
+}
+
+#Salina
+SNA = {
+	color = map_salinan
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = salinan_culture
+	religion_definition = pomo_shamanism
+}
+
+#Chumash
+CMH = {
+	color = map_chumash
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = chumash_culture
+	religion_definition = pomo_shamanism
+}
+
+#North Yokuts
+NYK = {
+	color = map_north_valley_yokut
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = north_valley_yokut_culture
+	religion_definition = pomo_shamanism
+}
+
+#South Yokuts
+SYK = {
+	color = map_south_valley_yokut
+	color2 = rgb { 39 228 191 }
+
+	culture_definition =  south_valley_yokut_culture
+	religion_definition = pomo_shamanism
+}
+
+#Foothills Yokuts -pop-
+FYK = {
+	color = map_foothill_yokut
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = foothill_yokut_culture
+	religion_definition = pomo_shamanism
+}
+
+#Tulumni
+TLI = {
+	color = map_tulumni
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tulumni_culture
+	religion_definition = pomo_shamanism
+}
+
+#Monachi -pop-
+MNH = {
+	color = map_monachi
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = monachi_culture
+	religion_definition = paiute_shamanism
+}
+
+#Tongva
+TNV = {
+	color = map_tongva
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tongva_culture
+	religion_definition = pomo_shamanism
+}
+
+#Taaqtam
+TAQ = {
+	color = map_taaqtam
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = taaqtam_culture
+	religion_definition = paiute_shamanism
+}
+
+#Kawaiisu
+KWS0 = {
+	color = map_kawaiisu
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kawaiisu_culture
+	religion_definition = paiute_shamanism
+}
+
+#Táxliswet
+TXW = {
+	color = map_taxliswet
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = taxliswet_culture
+	religion_definition = paiute_shamanism
+}
+
+#Eyak
+EYK = {
+	color = map_eyak
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = eyak_culture
+	religion_definition = dene_totemism
+}
+
+#Chugash
+CGH = {
+	color = map_chugash
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = chugash_culture
+	religion_definition = yupik_shamanism
+}
+
+#Dena'ina
+DNN = {
+	color = map_tanaina
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = tanaina_culture
+	religion_definition = dene_shamanism
+}
+
+#Kaniag
+KIG = {
+	color = map_kaniag
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kaniag_culture
+	religion_definition = yupik_shamanism
+}
+
+#Ogul
+OUL = {
+	color = map_ogul
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = ogul_culture
+	religion_definition = yupik_shamanism
+}
+
+#Unalaska
+UAK = {
+	color = map_unalaska
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = unalaska_culture
+	religion_definition = yupik_shamanism
+}
+
+#Nushag
+NHG = {
+	color = map_nushag
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = nushag_culture
+	religion_definition = yupik_shamanism
+}
+
+#Togiag
+TGI = {
+	color = map_togiag
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = togiag_culture
+	religion_definition = yupik_shamanism
+}
+
+#Kuskokwag
+KSG = {
+	color = map_kuskokwag
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kuskokwag_culture
+	religion_definition = yupik_shamanism
+}
+
+#Kaialig
+KGM = {
+	color = map_kaialig
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kaialig_culture
+	religion_definition = yupik_shamanism
+}
+
+#Unalig
+ULG = {
+	color = map_unalig
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = unalig_culture
+	religion_definition = yupik_shamanism
+}
+
+#Malemuit
+MMT = {
+	color = map_malemiut
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = malemiut_culture
+	religion_definition = inuit_religion
+}
+
+#Kaviag
+KVG = {
+	color = map_kaviag
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kaviag_culture
+	religion_definition = inuit_religion
+}
+
+#Kinug
+KGU = {
+	color = map_kinug
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = kinug_culture
+	religion_definition = inuit_religion
+}
+
+#Inupiaq
+INP = {
+	color = map_inupiaq
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = inupiaq_culture
+	religion_definition = inuit_religion
+}
+
+#Yupighyt
+YPG = {
+	color = map_yupighyt
+	color2 = rgb { 39 228 191 }
+
+	culture_definition = yupighyt_culture
+	religion_definition = yupik_shamanism
+}
+
+
+##Optional from here###
+#Kumeyaay
+#KMY =
+#Paipai
+#PPI =
+#Ko'leew
+#KEW =
+#Cochimi
+#CMI =
+#Mongui
+#Guaicura
+#Pericu

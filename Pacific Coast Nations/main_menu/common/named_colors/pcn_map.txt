@@ -1,0 +1,11 @@
+colors = {
+map_chehalis2 = rgb { 60 20 40 }
+map_lushootseed2 = rgb { 50 80 130 }
+map_tsitsiadi = rgb { 236 220 100 }
+map_ticutta = rgb { 236 190 70 }
+map_humbokado = rgb { 236 160 40 }
+map_musqueam = rgb { 9 62 64 }
+map_stolo = rgb { 29 46 25 }
+map_shishalh = rgb { 30 70 45 }
+map_nisga = rgb { 200 60 60 }
+}

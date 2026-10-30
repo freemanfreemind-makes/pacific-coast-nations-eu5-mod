@@ -1,0 +1,4 @@
+﻿pcn_coa_gfx = {
+	priority = 1 # coa
+	culture_tag = pcn_coa_gfx
+}

@@ -1,0 +1,59 @@
+discovered_regions = {
+	#
+}
+
+discovered_areas = {
+	cascadia_area
+	northwest_coast_area
+	athabasca_area
+	columbia_interior_area
+	saskatchewan_area
+	upper_missouri_area
+}
+
+discovered_provinces = {
+	river_dakelh_province
+	mountain_dakelh_province
+	lake_dakelh_province
+	south_sekani_province
+	wetsuweten_province
+	dunnneza_province
+	north_sekani_province
+	tsetsaut_province
+	tsimshian_province
+	kwakwala_province
+	northern_vancouver_province
+	southern_vancouver_province
+}
+
+discovered_locations = {
+	taant_a
+	saanya
+	hinyaa
+	alexander_point
+	keku_strait
+	kiusta_point
+	metlakatla_sound
+	lax_kw_alaams
+	masset_inlet
+	moresby_coast
+	banks_coast
+	queen_charlotte_sound
+	hakai_coast
+	raft_cove
+	beaver_cove
+	cheleset_coast
+	hot_springs_cove
+	haro_strait
+	georgia_strait
+	flattery_strait
+	oyster_bay
+	kitsap_bay
+	fuca_strait
+	olympic_coast
+	grays_harbour
+	chinook_bay
+	tillamook_bay
+	newport_cove
+	coos_bay
+}

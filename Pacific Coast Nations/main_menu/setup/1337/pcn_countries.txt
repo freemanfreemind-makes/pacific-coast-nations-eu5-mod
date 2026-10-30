@@ -1,0 +1,2172 @@
+countries = {
+	countries = {
+
+# from original 10_countries.txt - Kalapuya KLP to Tlingit TLG
+
+#############################
+# Pacific Coast Nations - FreeManFreeMind mod
+#############################
+
+	#Kalapuya
+	KLP = {
+
+		own_control_core = {
+			kalapuya atfalati umpqua
+		}
+
+		court_language = penutian_language
+		capital = kalapuya
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Chinook
+	CNK = {
+
+		own_control_core = {
+			chinook multnomah watlala
+		}
+
+		court_language = penutian_language
+		capital = chinook
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Tsamosa
+	TSA = {
+
+		own_control_core = {
+			klikitat stlpulmsh wishram
+		}
+
+		court_language = salishan_language
+		capital = klikitat
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Makah
+	MKH = {
+
+		own_control_core = {
+			makah
+		}
+
+		court_language = wakashan_language
+		capital = makah
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+
+	#S'Klallam
+	SKL = {
+
+		own_control_core = {
+			sklallam
+		}
+
+		court_language = salishan_language
+		capital = sklallam
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Twana
+	TWN = {
+
+		own_control_core = {
+			twana
+		}
+
+		court_language = salishan_language
+		capital = twana
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Lushootseed
+	LHT = {
+
+		own_control_core = {
+			duwamish nisqually puyallup
+		}
+
+		court_language = salishan_language
+		capital = puyallup
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+
+
+	#Lhaq'temish
+	LHQ = {
+		type = pop
+		add_pops_from_locations = {
+			lhaq_temish
+		}
+
+		court_language = salishan_language
+		capital = lhaq_temish
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Halkomelem
+	#HLM = {
+
+	#	own_control_core = {
+	#		#stz_uminus katzie nooksack sto_lo sts_ailes whonnock
+	#	}
+
+	#	court_language = salishan_language
+	#	capital = whonnock
+
+	#	#include = "amerindian_northwest_coast"
+	#	#include = "expl_pcn_central_coast"
+
+	#	government = {
+	#		ruler = random
+	#	}
+	#}
+
+	#Squamish
+	SQH = {
+
+		own_control_core = {
+			squamish
+		}
+
+		court_language = salishan_language
+		capital = squamish
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#K'omoks
+	KMK = {
+
+		own_control_core = {
+			k_omoks pentlatch homalco #klahoose sechelt sliammon
+		}
+
+		court_language = salishan_language
+		capital = k_omoks
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Nootkah
+	NOO = {
+
+		own_control_core = {
+			ditidaht maaqtusiis ucluelet yuquot
+		}
+
+		court_language = wakashan_language
+		capital = ucluelet
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+	#Kwakiutl
+	KWA = {
+
+		own_control_core = {
+			ma_amtagila quawshelah tanakteuk tlatlasikwala
+		}
+
+		court_language = wakashan_language
+		capital = ma_amtagila
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+	#Oowekyala
+	OOW = {
+
+		own_control_core = {
+			oweekeno
+		}
+
+		court_language = wakashan_language
+		capital = oweekeno
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+	#Nuxalc
+	NUX = {
+
+		own_control_core = {
+			nuxalc kitasoo
+		}
+		own_control_conquered = {
+		ulkatchot_en
+		}
+
+		court_language = wakashan_language
+		capital = nuxalc
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+	#Heiltsuk
+	HLK = {
+
+		own_control_core = {
+			heiltsuk
+		}
+
+		court_language = wakashan_language
+		capital = heiltsuk
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+	#Haisla
+	HLA = {
+
+		own_control_core = {
+			haisla
+		}
+
+		court_language = wakashan_language
+		capital = haisla
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+	#Tsimshian
+	TMH = {
+
+		own_control_core = {
+			gitxsanimaax  sm_algyax
+		}
+
+		court_language = tsimshian_language
+		capital = gitxsanimaax
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+	#Xaayda
+	XDA = {
+		own_control_core = {
+			kiis_gwaay gwaay_haanas
+		}
+
+		court_language = haida_language
+		capital = kiis_gwaay
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+	#Tlingit
+	TLG = {
+
+		own_control_core = {
+			aa_kw galyax gunaaxoo hinyaa jilkaat keex laaxaayik s_awdaan saanya shee_t_ika shtax_heen t_aaku taant_a yaakwdaat yakataga xunaa xutsnoowu
+		}
+
+		court_language = nadene_language
+		capital = shtax_heen
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+
+# PCN new factions
+
+
+	#Saanich
+	WSN = {
+
+		own_control_core = {
+			saanich
+		}
+
+		court_language = salishan_language
+		capital = saanich
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Chehalis
+	CIS = {
+
+		own_control_core = {
+			chehalis chala_at
+		}
+
+		court_language = salishan_language
+		capital = chehalis
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Snohomish
+	SNO = {
+
+		own_control_core = {
+			skagit snohomish
+		}
+
+		court_language = salishan_language
+		capital = puyallup
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Quw'utsun
+	HLM1 = {
+
+		own_control_core = {
+			stz_uminus
+		}
+
+		court_language = salishan_language
+		capital = stz_uminus
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Musqueam
+	HLM2 = {
+
+		own_control_core = {
+			katzie whonnock
+		}
+
+		court_language = salishan_language
+		capital = whonnock
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Sto:lo
+	HLM3 = {
+
+		own_control_core = {
+			nooksack sto_lo sts_ailes
+		}
+
+		court_language = salishan_language
+		capital = whonnock
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Shishalh
+	KMK2 = {
+
+		own_control_core = {
+			 sechelt sliammon klahoose #k_omoks pentlatch homalco
+		}
+
+		court_language = salishan_language
+		capital = sechelt
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+	#Nisga'a
+	NGA = {
+
+		own_control_core = {
+			nisga_a k_alii_xkalaan
+		}
+
+		court_language = tsimshian_language
+		capital = nisga_a
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast"
+
+		discovered_provinces = {
+			tsetsaut_province
+			north_sekani_province
+			south_sekani_province
+		}
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Tillamook
+	TLK = {
+		own_control_core = {
+		tillamook
+		}
+
+		court_language = salishan_language
+		capital = tillamook
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Alsea
+	ALX = {
+		own_control_core = {
+		yaquina
+		}
+
+		court_language = penutian_language
+		capital = yaquina
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Coos
+	QUU = {
+		own_control_core = {
+		quuiich
+		}
+
+		court_language = penutian_language
+		capital = quuiich
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_central_coast"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Nlakpamuk
+	NPK = {
+		own_control_core = {
+		skuppah nlaka_pamux scw_exmx
+		}
+
+		court_language = salishan_language
+		capital = nlaka_pamux
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_interior"
+
+		discovered_provinces = {
+			mountain_dakelh_province
+			river_dakelh_province
+			lake_dakelh_province
+			wetsuweten_province
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Lillooet (St'át'imc)
+	LWT = {
+		own_control_core = {
+		leel_watr_ool tsala_ihmec st_at_imcets
+		}
+		own_control_conquered = {
+		llenllenet_ten
+		}
+
+		court_language = salishan_language
+		capital = leel_watr_ool
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_interior"
+
+		discovered_provinces = {
+			mountain_dakelh_province
+			river_dakelh_province
+			lake_dakelh_province
+			wetsuweten_province
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Tsilhqot'in
+	TQN = {
+	own_control_core = {
+		yunesit_in tl_etinqox_t_in elhdaqox_t_in tsi_del_del tl_esqox
+		}
+
+	own_control_conquered = {
+		esk_el stswecen_c
+		}
+
+		court_language = nadene_language
+		capital = yunesit_in
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_interior"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Wet'suwet'en
+	WST = {
+	own_control_core = {
+		wet_suwet_en sguuxs hagwilget witset ts_il_kaz_koh nee_tahi_buhn skin_tyee
+		}
+	own_control_conquered = {
+		nechakot_en
+	}
+
+		court_language = nadene_language
+		capital = wet_suwet_en
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_interior"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Dakelh
+	DKL = {
+	own_control_core = {
+		lheidlit_en yekooche tl_azt_en khelhghubunt_en a_taw_bun_kut_en nak_azdlit_en nat_oot_en nadleh_whuten nadleht_en cheslattat_en
+		}
+
+	our_cores_conquered_by_others = {
+		goat_creek nadleht_en nazkot_en lhoosk_uzt_en ulkatchot_en nechakot_en saik_uz
+	}
+
+		court_language = nadene_language
+		capital = nadleh_whuten
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_interior"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Secwépemc
+	SWP = {
+		own_control_core = {
+		tk_emlups stil_qw qw_ewt simpcw st_uxwtews skitsetsen sk_atsin splatsin karluk_peak monashee cariboo crescent_spur willmore hutton
+		}
+
+		our_cores_conquered_by_others = {
+		llenllenet_ten kinbasket moose_river xat_sull sexqeltqin llenllenet_ten stswecen_c esk_el lanezi
+		}
+
+		court_language = salishan_language
+		capital = tk_emlups
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Syilix
+	SLX = {
+		own_control_core = {
+		similkameen osoyoos okanagan n_pooh_le
+		}
+
+		our_cores_conquered_by_others = {
+		spaxomin chelan
+		}
+
+		court_language = salishan_language
+		capital = osoyoos
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Sinixt
+	SNX = {
+		own_control_core = {
+		enselxcin snk_mip ntiltxitk illecillewaet swarakxen
+		}
+
+		own_control_conquered = {
+		mica_creek
+		}
+		our_cores_conquered_by_others = {
+		stxtilusten q_espiea
+		}
+
+		court_language = salishan_language
+		capital = ntiltxitk
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Ktunaxa
+	KTX = {
+		own_control_core = {
+		yaqan_nukiy aq_am akisq_nuk akinkumasnuqit ainu_nik ktunwakanmituk yakyu_ki kananmituk aqanqmi aknuq_uk
+		}
+		own_control_conquered = {
+		kinbasket
+		}
+		our_cores_conquered_by_others = {
+		aqyam_nup akinka_nup mokowan okotoks ya_kti_ki shunda wabamun kananaskis netook waskasoo
+		}
+
+		court_language = ktunaxa_language
+		capital = ktunwakanmituk
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_north_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Molalla
+	MLA = {
+		type = pop
+		add_pops_from_locations = {
+		giiwas meli_lema towarnehiooks tukspush south_molala
+		}
+
+		court_language = penutian_language
+		capital = giiwas
+
+		include = "amerindian_southwest_interior"
+		include = "expl_pcn_central_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Yakama
+	YKM = {
+		own_control_core = {
+		mamachatpam wanapum pa_kiut_lema
+		}
+		our_cores_conquered_by_others = {
+		kittikas
+		}
+
+		court_language = penutian_language
+		capital = mamachatpam
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_central_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Sinkiuse
+	SNK = {
+		own_control_core = {
+		nkee_us stata_ketux
+		}
+		our_cores_conquered_by_others = {
+		wenatchi
+		}
+
+		court_language = salishan_language
+		capital = nkee_us
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_central_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Sahaptin
+	SHT = {
+		own_control_core = {
+		takspaslama umatilla tayxlama
+		}
+
+		court_language = penutian_language
+		capital = umatilla
+
+		include = "amerindian_southwest_interior"
+		include = "expl_pcn_central_interior"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Willetpoose
+	WLP = {
+		own_control_core = {
+		waluulapam liksiyu
+		}
+
+		court_language = penutian_language
+		capital = waluulapam
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_central_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Palus
+	PLS = {
+		own_control_core = {
+		alpo_wa pa_lus_sa
+		}
+
+		court_language = penutian_language
+		capital = pa_lus_sa
+
+		include = "amerindian_southwest_interior"
+		include = "expl_pcn_central_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Sqeliz
+	SQZ = {
+		own_control_core = {
+		scqescilni snt_t_ulix
+		}
+
+		court_language = salishan_language
+		capital = snt_t_ulix
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_central_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Alene
+	SCN = {
+		own_control_core = {
+		kaniksu benewah skitswish
+		}
+
+		court_language = salishan_language
+		capital = kaniksu
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_central_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Qalispé
+	QLP = {
+		own_control_core = {
+		sletewsi kalispel qlispe
+		}
+
+		court_language = salishan_language
+		capital = qlispe
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_central_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Saleesh
+	SLH = {
+		own_control_core = {
+		saleesh epixyu hungry_horse bad_rock niarada missoula turah bitterroot deer_lodge granite
+		}
+
+		court_language = salishan_language
+		capital = saleesh
+
+		include = "amerindian_northwest_interior"
+		include = "expl_pcn_central_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Nimiipuu
+	NIM = {
+		type = pop
+		add_pops_from_locations = {
+		kamiahpu wallowa hinsepu asahkaiowaipu alpowna lamatama iyeesnime
+		}
+
+		court_language = penutian_language
+		capital = hinsepu
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_pcn_central_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Banakwut
+	BNK = {
+		type = pop
+		add_pops_from_locations = {
+		shohopanaiti lemhi pohogwe koa_aga_itoka waradika yambadika
+		}
+
+		court_language = shoshoni_language
+		capital = waradika
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_pcn_central_mountain"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Dukundeka
+	DKD = {
+		own_control_core = {
+		beaverhead ruby_valley penointikara gazzllatin fremont ashalaho tukudika
+		}
+
+		court_language = shoshoni_language
+		capital = tukudika
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_interior"
+
+		discovered_areas = {
+			badlands_area
+			upper_missouri_area
+		}
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Agaideka
+	AGD = {
+		own_control_core = {
+		agaidika leadore jefferson kamodika doyahinee red_rock elkhorn
+		}
+
+		court_language = shoshoni_language
+		capital = agaidika
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_interior"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Haivodeka
+	HVD = {
+		own_control_core = {
+		wapi richfield hazelton pohoko_ikkatee dembimbosaage so_so_goiw boa_ogoi
+		}
+
+		court_language = shoshoni_language
+		capital = pohoko_ikkatee
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_interior"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Penkwideka
+	PKD = {
+		own_control_core = {
+		nyssa payette yam_pah_pa yahandeka tipanuk yakwahnim_paa panati king_hill toponisw
+		}
+
+		court_language = shoshoni_language
+		capital = tipanuk
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_interior"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Kuchun-deka
+	KCD = {
+		own_control_core = {
+		kuccuntikka teewinot tondzaosha guchuntikka sweetwater
+		bridger rock_springs flaming_gorge sinclair milk_creek wamsutter point_of_rocks
+		split_rock moneta hot_springs grass_creek washakie hinono_ei pushroot
+		}
+
+		court_language = shoshoni_language
+		capital = kuccuntikka
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_interior"
+		include = "expl_pcn_central_mountain"
+
+		discovered_areas = {
+			rockies_area
+			great_basin_area
+			high_plains_area
+			badlands_area
+			upper_missouri_area
+			shiewhibak_area
+			natahende_area
+			central_plains_area
+		}
+		government = {
+			type = tribe
+			ruler = random
+		}
+}
+
+#Numu
+	NMU = {
+		own_control_core = {
+		tinainu crook grant arock kidutokado chewaucan silver_lake
+		}
+
+		court_language = shoshoni_language
+		capital = tinainu
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_interior"
+
+		discovered_provinces = {
+			chinook_province
+			oregon_province
+			yuru_kyara_province
+			takelma_province
+			shasta_province
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Tsitsiadi
+	NMU1 = {
+		own_control_core = {
+		tsitsiadi wadadokado malheur gidi_tika #moadokado
+		}
+
+		own_control_conquered = {
+		moadokado
+		}
+
+		court_language = shoshoni_language
+		capital = tsitsiadi
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_interior"
+
+		government = {
+			ruler = random
+		}
+}
+
+
+#Ticutta
+	NMU2 = {
+		own_control_core = {
+		panina_ticutta kamu_ticutta cui_yui_ticutta agai_ticutta koop_ticutta
+		}
+
+		court_language = shoshoni_language
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_interior"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Humbokado
+	NMU3 = {
+		own_control_core = {
+		kupadokado humbokado sawawaktodo makuhadokado winnemucca
+		}
+
+		court_language = shoshoni_language
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_interior"
+
+		government = {
+			ruler = random
+		}
+}
+
+
+#Tututni
+	TTT = {
+		own_control_core = {
+		tututni ko_kwel
+		}
+
+		court_language = nadene_language
+		capital = tututni
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Takelma
+	TKL = {
+		own_control_core = {
+		etnemitane yulalona tak_elam
+		}
+
+		court_language = penutian_language
+		capital = tak_elam
+
+		include = "amerindian_southwest_interior"
+		include = "expl_pcn_south_coast"
+
+		discovered_provinces = {
+			ticutta_province
+			malheur_province
+			northwest_numu_province
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Ewksikni
+	EKK = {
+		type = pop
+		add_pops_from_locations = {
+		ewksikni mbosaksawaas
+		}
+
+		court_language = penutian_language
+		capital = ewksikni
+
+		include = "amerindian_tribe_northwestern"
+		include = "expl_pcn_south_coast"
+		include = "expl_pcn_south_interior"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Tolowa
+	TOL2 = {
+		own_control_core = {
+		chidkhu
+		}
+
+		court_language = nadene_language
+		capital = chidkhu
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_south_coast"
+		government = {
+			ruler = random
+		}
+}
+
+#Yurok
+	OOH = {
+		own_control_core = {
+		oohl
+		}
+
+		court_language = algic_language
+		capital = oohl
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Káruk
+	KRU = {
+		type = pop
+		add_pops_from_locations = {
+		karuk
+		}
+
+		court_language = hokan_language
+		capital = karuk
+
+		include = "amerindian_tribe"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Shasta
+	SST = {
+		type = pop
+		add_pops_from_locations = {
+		waika siskiyou okwanuchu
+		}
+
+		court_language = hokan_language
+		capital = waika
+
+		include = "amerindian_tribe"
+		include = "expl_pcn_south_coast"
+		include = "expl_pcn_south_interior"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Modokni
+	MDK = {
+		type = pop
+		add_pops_from_locations = {
+		modokni tollin
+		}
+
+		#court_language = penutian_language
+		#capital = modokni
+
+		include = "amerindian_tribe"
+		include = "expl_pcn_south_coast"
+		include = "expl_pcn_south_interior"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Wiyot
+	WYT = {
+		own_control_core = {
+		jaroujiji hoilkut
+		}
+
+		court_language = algic_language
+		capital = jaroujiji
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Hupa
+	HPA = {
+		type = pop
+		add_pops_from_locations = {
+		natinixwe
+		}
+
+		court_language = penutian_language
+		capital = natinixwe
+
+		include = "amerindian_tribe"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Tsnungwe
+	TNW = {
+		type = pop
+		add_pops_from_locations = {
+		tsnungwe
+		}
+
+		court_language = nadene_language
+		capital = tsnungwe
+
+		include = "amerindian_tribe"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Wintu
+	WIN = {
+		type = pop
+		add_pops_from_locations = {
+		wintu amblu_kai
+		}
+
+		court_language = penutian_language
+		capital = wintu
+
+		include = "amerindian_tribe"
+		include = "expl_pcn_south_coast"
+		include = "expl_pcn_south_interior"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Achomawi
+	AMW = {
+		own_control_core = {
+		yana atsugewi achomawi
+		}
+
+		court_language = hokan_language
+		capital = achomawi
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_coast"
+
+		discovered_areas = {
+			great_basin_area
+		}
+
+		discovered_provinces = {
+			northwest_numu_province
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Maidu
+	MDU = {
+		type = pop
+		add_pops_from_locations = {
+		yahi konkow mountain_maidu
+		}
+
+		court_language = penutian_language
+		capital = mountain_maidu
+
+		include = "amerindian_tribe"
+		include = "expl_pcn_south_coast"
+
+		discovered_areas = {
+			great_basin_area
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Koyoongkawi
+	KGW0 = {
+		type = pop
+		add_pops_from_locations = {
+		maidu yupu koyoongkawi
+		}
+
+		court_language = penutian_language
+		capital = maidu
+
+		include = "amerindian_tribe"
+		include = "expl_pcn_south_coast"
+
+		discovered_areas = {
+			great_basin_area
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Mattole
+	MTL = {
+		own_control_core = {
+		mattole sinkyone tlokyhan
+		}
+
+		court_language = nadene_language
+		capital = mattole
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Nongatl
+	NNG = {
+		type = pop
+		add_pops_from_locations = {
+		nongatl wailaki
+		}
+
+		court_language = nadene_language
+		capital = nongatl
+
+		include = "amerindian_tribe"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Yuki
+	YKI = {
+		type = pop
+		add_pops_from_locations = {
+		ukomno_om
+		}
+
+		court_language = yuki_language
+		capital = ukomno_om
+
+		include = "amerindian_tribe"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Nomlaki
+	NML = {
+		own_control_core = {
+		river_nomlaki hill_nomlaki
+		}
+
+		court_language = penutian_language
+		capital = river_nomlaki
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_coast"
+
+		discovered_provinces = {
+			northwest_numu_province
+			ticutta_province
+			waashiw_province
+			humboldt_province
+			malheur_province
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+
+#Nisena'n
+	NSN = {
+		type = pop
+		add_pops_from_locations = {
+		mechoopda nisenan
+		}
+
+		court_language = penutian_language
+		capital = mechoopda
+
+		include = "amerindian_tribe"
+		include = "expl_pcn_south_coast"
+
+		discovered_provinces = {
+			northwest_numu_province
+			ticutta_province
+			waashiw_province
+			humboldt_province
+			malheur_province
+		}
+		government = {
+			ruler = random
+		}
+}
+
+#Waashiw
+	WHW = {
+		own_control_core = {
+		tanalelti powalu toedokado tovusidokado waitikka
+		}
+
+		court_language = hokan_language
+		capital = powalu
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_interior"
+
+		discovered_provinces = {
+			nomlaki_province
+			pomo_province
+			aacistak_province
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Pomo
+	PMO = {
+		own_control_core = {
+		kulanapan kashaya
+		}
+
+		court_language = hokan_language
+		capital = kulanapan
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Micewal
+	MWL = {
+		own_control_core = {
+		onasatis
+		}
+
+		court_language = yuki_language
+		capital = onasatis
+
+		include = "amerindian_southwest_interior"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Miwok
+	MWK = {
+		own_control_core = {
+		mewuk koloma kasumne
+		#mokelumne tuolomne nochu_ci
+		}
+
+		court_language = penutian_language
+		capital = mewuk
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Patwin
+	PWN = {
+		own_control_core = {
+		korusi yo_loy suisin
+		#kasumne
+		}
+
+		court_language = penutian_language
+		capital = suisin
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Ohlone
+	OHL =  {
+		own_control_core = {
+		chochenyo mutsun
+		#awaswas
+		}
+
+		court_language = penutian_language
+		capital = awaswas
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_south_coast_california"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Salina
+	SNA = {
+		own_control_core = {
+		tepotahal
+		}
+
+		court_language = hokan_language
+		capital = tepotahal
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_south_coast_california"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Chumash
+	CMH =  {
+		own_control_core = {
+		ineseno ventureno pimuu_nga
+		}
+
+		court_language = chumashan_language
+		capital = ventureno
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_south_coast_california"
+
+		government = {
+			ruler = random
+		}
+}
+
+#North Yokuts
+	NYK =  {
+		own_control_core = {
+		yashikumne tawalimni chawchila noptinte
+		}
+
+		court_language = penutian_language
+		capital = tawalimni
+
+		include = "amerindian_southwest_interior"
+		include = "expl_pcn_south_coast_california"
+
+		discovered_provinces = {
+			death_valley_province
+			waashiw_province
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#South Yokuts
+SYK = {
+		own_control_core = {
+		tachi pitkachi koyeti
+		}
+
+		court_language = penutian_language
+		capital = tachi
+
+		include = "amerindian_southwest_interior"
+		include = "expl_pcn_south_coast_california"
+
+		discovered_provinces = {
+			death_valley_province
+			chemewevi_province
+		}
+
+		discovered_areas = {
+			shiewhibak_area
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Foothills Yokuts -pop-
+FYK = {
+		type = pop
+		add_pops_from_locations = {
+		gashowu yawdanshi
+		}
+
+		court_language = penutian_language
+		capital = gashowu
+
+		include = "amerindian_tribe"
+		include = "expl_pcn_south_coast"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Tulumni
+TLI = {
+		own_control_core = {
+		tulumni hometwoli
+		}
+
+		court_language = penutian_language
+		capital = tulumni
+
+		include = "amerindian_southwest_interior"
+		include = "expl_pcn_south_coast_california"
+
+		discovered_provinces = {
+			death_valley_province
+			chemewevi_province
+		}
+
+		discovered_areas = {
+			shiewhibak_area
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Monachi -pop-
+MNH = {
+		type = pop
+		add_pops_from_locations = {
+		kuzedika tubatulabam
+		}
+
+		court_language = penutian_language
+		capital = kuzedika
+
+		include = "amerindian_tribe_settled_northwestern"
+		include = "expl_pcn_south_coast_california"
+
+		discovered_provinces = {
+			death_valley_province
+			chemewevi_province
+		}
+
+		discovered_areas = {
+			shiewhibak_area
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Tongva
+TNV = {
+		own_control_core = {
+		yaanga kukamonga payomkawichum
+		}
+
+		court_language = takic_language
+		capital = yaanga
+
+		include = "amerindian_southwest_coast"
+		include = "expl_pcn_south_coast_california"
+
+		government = {
+			ruler = random
+		}
+}
+
+#Taaqtam
+TAQ = {
+		own_control_core = {
+		kitanemuk taaqtam
+		}
+
+		court_language = takic_language
+		capital = taaqtam
+
+		include = "amerindian_southwest_interior"
+		include = "expl_pcn_south_coast_california"
+
+		discovered_provinces = {
+			death_valley_province
+			chemewevi_province
+		}
+
+		discovered_areas = {
+			shiewhibak_area
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Kawaiisu
+KWS0 = {
+		own_control_core = {
+			kawaiisu vanyume
+		}
+
+		court_language = nuuchi_nuwu_language
+		capital = kawaiisu
+
+		include = "amerindian_southwest_interior"
+		include = "expl_pcn_south_coast_california"
+
+		discovered_provinces = {
+			death_valley_province
+			chemewevi_province
+		}
+
+		discovered_areas = {
+			shiewhibak_area
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Táxliswet
+TXW = {
+		own_control_core = {
+		iviatim
+		}
+
+		court_language = takic_language
+		capital = iviatim
+
+		include = "amerindian_southwest_interior"
+		include = "expl_pcn_south_coast_california"
+
+		discovered_provinces = {
+			death_valley_province
+			chemewevi_province
+		}
+
+		discovered_areas = {
+			shiewhibak_area
+		}
+
+		government = {
+			ruler = random
+		}
+}
+
+#Eyak
+	EYK = {
+		own_control_core = {
+		daxunhyuu
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Chugash
+	CGH = {
+		own_control_core = {
+		taatiilaaq nuciiq caniqaq nanwalek
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Dena'ina
+	DNN = {
+		own_control_core = {
+		kachemak kenai dgheyaytnu k_enakatnu susitna tyonek iliamna
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+
+		government = {
+			ruler = random
+			heir_selection = matrilineal_non_exclusive
+		}
+	}
+
+#Kaniag
+	KIG = {
+		own_control_core = {
+		chignik alinchak amalik swikshak
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_alaska"
+		include = "expl_pcn_north_coast_bering"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Ogul
+	OUL = {
+		own_control_core = {
+		aniakchak ugashik egegik qarr_unaq igiugig nuuriileng
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_bering"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Unalaska
+	UAK = {
+		own_control_core = {
+		kangi_asinaq qagiigun qagaan unimax qawalangin akuugun niigugis naahmigus qaxun sasignan amiq
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_bering"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Nushag
+	NHG = {
+		own_control_core = {
+		koliaganeq akokpaq aguyaq
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_bering"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Togiag
+	TGI = {
+		own_control_core = {
+		igushiq togiaq baleknagiq
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_bering"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Kuskokwag
+	KSG = {
+		own_control_core = {
+		kwigilingoq iiq mamterilleq kalskaq quinhagaq mamterat
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_bering"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Kaialig
+	KGM = {
+		own_control_core = {
+		nunapichuq kaghasuq tununaq niugtaq ce_vaq marayaarmiut imangaq
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_bering"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Unalig
+	ULG = {
+		own_control_core = {
+		qerrulliiq tapqaq unalakleet ungaliq
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_pcn_north_coast_bering"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Malemiut
+	MMT = {
+		own_control_core = {
+		malemiut kuuyuk kuugaaluk kongashuk qikiqtagruk
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_amerindian_arctic"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Kinug
+	KGU = {
+		own_control_core = {
+		anakovik
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_amerindian_arctic"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Inupiaq
+	INP = {
+		own_control_core = {
+		nuurvik uataaq kivualinagmut uivvak kali
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_amerindian_arctic"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Yupighyt
+	YPG = {
+		own_control_core = {
+		kitagnaq savoonga sivuqaq guvrel
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_amerindian_arctic"
+
+		government = {
+			ruler = random
+		}
+	}
+
+#Kaviag
+	KVG = {
+		own_control_core = {
+		sinjik nachirvik kigluaik
+		}
+
+		include = "amerindian_northwest_coast"
+		include = "expl_amerindian_arctic"
+
+		government = {
+			ruler = random
+		}
+	}
+
+}
+}

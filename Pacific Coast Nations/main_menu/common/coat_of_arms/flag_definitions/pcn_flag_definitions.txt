@@ -1,0 +1,48 @@
+XDA = { # Haida
+	flag_definition = {
+		coa = XDA
+		priority = 1
+	}
+}
+
+HLA = { # Haisla
+	flag_definition = {
+		coa = HLA
+		priority = 1
+	}
+}
+
+TMH = { # Tsimishian
+	flag_definition = {
+		coa = TMH
+		priority = 1
+	}
+}
+
+NGA = { # Nisga'a
+	flag_definition = {
+		coa = NGA
+		priority = 1
+	}
+}
+
+NPK = { # Nlakapamuk
+	flag_definition = {
+		coa = NPK
+		priority = 1
+	}
+}
+
+HLM = { # halqemeylem - musqueum flag for now, change later.
+	flag_definition = {
+		coa = HLM
+		priority = 1
+	}
+}
+
+HLM2 = { # musqueum
+	flag_definition = {
+		coa = HLM2
+		priority = 1
+	}
+}

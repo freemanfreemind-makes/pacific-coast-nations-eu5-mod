@@ -1,0 +1,70 @@
+discovered_regions = {
+	#
+}
+
+discovered_areas = {
+	california_area
+	baja_area
+	tahejoc_area
+	culiacan_area
+	great_basin_area
+	shiewhibak_area
+}
+
+discovered_provinces = {
+
+}
+
+discovered_locations = {
+	nesika_beach
+	shleter_cove
+	humboldty_bay
+	lost_coast
+	mendocino_cape
+	sonoma_coast
+	marin_coast
+	san_francisco_bay
+	elkhorn_bay
+	santa_cruz_cove
+	monterey_coast
+	santa_barbara_coast
+	los_angeles_bay
+	orange_cove
+	san_diego_bay
+	south_canal
+	north_canal
+	san_catalina_island
+	todos_santos_bay
+	colonet_cape
+	san_quintin_bay
+	hares_eye_lagoon
+	eugenia_cape
+	baja_coast
+	pilot_rock
+	comondu_coast
+	pulmo_cape
+	loreto_bay
+	concepcion_bay
+	sahuimaro_coast
+	kino_bay
+	xazl_iimt_island
+	tecopa_cape
+	colorado_delta
+	haro_cape
+	huivulau_bay
+	agiabampo_bay
+	ohuira_bay
+	talchichintle_island
+	lucenilla_peninsula
+	mazatlan_coast
+	huizache_lagoon
+	nayarit_coast
+	guayabitos_coast
+	banderas_bay
+	north_aztatlan
+	xihutla
+	xalisco
+	sentispac
+	aztatlan
+	magdalenas
+}

@@ -1,0 +1,71 @@
+discovered_regions = {
+	#
+}
+
+discovered_areas = {
+	chukchee_area
+	anadyr_area
+	chuvan_area
+	kolyma_area
+	yandin_area
+	western_arctic_area
+	alaxsxaq_area
+	yukon_area
+	columbia_interior_area
+	athabasca_area
+	keewatin_n_area
+	keewatin_area
+	james_bay_lowlands_area
+	jamesie_area
+	hudson_bay_sea_zones_area
+	nunavik_area
+	labrador_area
+	labrador_sea_area
+	western_greenland_sea_zones_area
+	greenland_area
+}
+
+discovered_provinces = {
+	sugpiap_province
+	north_tlingit_province
+	central_tlingit_province
+	kugmiut_coast_sea_zones_province
+	kavagmiut_coast_sea_zones_province
+	kaialigamiut_coast_sea_zones_province
+	bering_sea_zones_province
+	unalaska_coast_sea_zones_province
+	alutiiq_sea_zones_province
+	chukchi_coast_province
+	unazigmit_coast_sea_province
+	koryak_coast_sea_province
+	kamchatka_coast_province
+	achava_coast_sea_province
+
+}
+
+discovered_locations = {
+	chukchi_sea
+	bering_sea
+	lopatka_cape
+	kambalny_bay
+	kinpei_cape
+	kapari_cape
+	onnekotan
+	paramushiru
+	shumushu
+	chirikof_island
+	larsen_bay
+	ursus_cove
+	marmot_bay
+	k_alii_xkalaan
+	middleton_island
+	kenai_fjords
+	hinchinbrook_bay
+	galyax_coast
+	yakutat_bay
+	lituya_bay
+	yakobi_coast
+	funter_bay
+	stephens_passage
+	alexander_point
+}
