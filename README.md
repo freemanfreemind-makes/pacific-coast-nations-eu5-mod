@@ -36,9 +36,4 @@ Future goals:
 
 Modders: if anyone is familiar with clothing and wants to assist in adding the proper clothes for the region, let me know!
 
-Development notes:
-V1.10 Developed using
-- EU5 version: 1.4.9,
-- OS version: Fedora Linux 45 (KDE workstation edition)
-
 ZERO AI was used in the creation of this or any of my mods.
