@@ -15,16 +15,16 @@ countries = {
 		#BYZ = { ai_personality = ai_defensive }  # Byzantium
 		NOO = { ai_personality = ai_defensive }  # Nuu-chah-nulth
 		KWA = { ai_personality = ai_defensive }
-		SLH = { ai_personality = ai_defensive }
+		SLH0 = { ai_personality = ai_defensive }
 		TLG = { ai_personality = ai_defensive } # Tlingit
 
 
 		# Cautious: risk-averse, prefer safe diplomacy over war
 		#HAB = { ai_personality = ai_cautious }  # Austria / Habsburgs
 		KMK = { ai_personality = ai_cautious }
-		SWP = { ai_personality = ai_cautious }
-		KTX = { ai_personality = ai_cautious }
-		NMU = { ai_personality = ai_cautious }
+		SWP0 = { ai_personality = ai_cautious }
+		KTX0 = { ai_personality = ai_cautious }
+		NMU0 = { ai_personality = ai_cautious }
 
 
 		# Opportunistic: exploit others' weaknesses; trade-focused
@@ -37,8 +37,8 @@ countries = {
 
 		# Friendly: diplomacy-first, build alliances and accept fair peace
 		#PAP = { ai_personality = ai_friendly }  # Papal States
-		CNK = { ai_personality = ai_friendly } #Chinook
-		LWT = { ai_personality = ai_friendly } #St'át'imc
+		#CNK = { ai_personality = ai_friendly } #Chinook
+		#LWT = { ai_personality = ai_friendly } #St'át'imc
 
 	}
 }

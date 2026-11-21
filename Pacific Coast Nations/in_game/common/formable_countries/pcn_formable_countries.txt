@@ -1,4 +1,4 @@
-﻿NYK0_f = {
+﻿NYK1_f = {
 
     level = 2
     required_locations_fraction = 0.6
@@ -20,10 +20,10 @@
 		}
 	}
 
-	name = NYK0
+	name = NYK1
 	flag = NYK0
-	adjective = NYK0_ADJ
-	tag = NYK0
+	adjective = NYK1_ADJ
+	tag = NYK1
 	color = map_north_valley_yokut
 	locations = {
 		yashikumne
@@ -45,7 +45,7 @@
 }
 
 
-CMH0_f = {
+CMH1_f = {
 
     level = 2
     required_locations_fraction = 0.75
@@ -65,10 +65,10 @@ CMH0_f = {
 		}
 	}
 
-	name = CMH0
-	flag = CMH0
-	adjective = CMH0_ADJ
-	tag = CMH0
+	name = CMH1
+	flag = CMH1
+	adjective = CMH1_ADJ
+	tag = CMH1
 	color = map_chumash
 	locations = {
 		ineseno
@@ -84,7 +84,7 @@ CMH0_f = {
 
 }
 
-NMU0_f = {
+NMU4_f = {
 
     level = 2
     required_locations_fraction = 0.75
@@ -97,10 +97,10 @@ NMU0_f = {
     allow = {
 	}
 
-	name = NMU0
-	flag = NMU0
-	adjective = NMU0_ADJ
-	tag = NMU0
+	name = NMU4
+	flag = NMU4
+	adjective = NMU4_ADJ
+	tag = NMU4
 	color = map_numu
 	locations = {
 		tinainu

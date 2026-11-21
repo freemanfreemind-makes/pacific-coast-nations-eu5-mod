@@ -1,0 +1,32 @@
+﻿pcn_headwear_additive = {
+	usage = game
+	selection_behavior = weighted_random
+	priority = 1
+
+	## JEWELERY
+
+	pcn_jewellery_low = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headwear_additive
+				template = pcn_jewellery_low
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_low_nobility_trigger = { CULTURE_GFX = pcn_gfx }
+					portrait_high_nobility_trigger = { CULTURE_GFX = pcn_gfx }
+					portrait_low_nobility_trigger = { CULTURE_GFX = pcn_south_gfx }
+					portrait_high_nobility_trigger = { CULTURE_GFX = pcn_south_gfx }
+				}
+				NOT = { portrait_wear_armor_trigger = yes }
+			}
+		}
+	}
+
+}

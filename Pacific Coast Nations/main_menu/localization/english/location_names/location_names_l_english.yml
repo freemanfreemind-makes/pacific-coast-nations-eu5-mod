@@ -21108,27 +21108,27 @@ chilcotin_mtns: "Tsilhqot'in Mountains"
 gwazhal_mountains: "Gwazhał Mountains"
 yukon_flats: "Yukon Flats" #############Find Better#################
 sk_atsin: "Sk'atsin"
-skitsetsen: "Skitsetsen"
+skitsetsen: "Tk'emlups" #actually Tk'emlups mislabled Skitsetsen
 st_uxwtews: "St'uxwtews"
 splatsin: "Splatsin"
-tk_emlups: "Tk'emlups"
+tk_emlups: "Simpcw" #actually Simpcw mislabled as Tk'emlups
 qw_ewt: "Qw'ewt"
 stil_qw: "Stil'qw"
 s_shuswap_mtns: "South Shuswap Mountains"
-esk_el: "Esk'el"
+esk_el: "Xatsúll" #misnamed Esk'el, actually Xat'sul
 stswecen_c: "Stswecen'c"
 llenllenet_ten: "Llenllenet'ten"
-sexqeltqin: "Sexqeltqin"
-simpcw: "Simpcw"
-xat_sull: "Xat'sull"
+sexqeltqin: "Téxelc" #Téxelc labled Sexqeltqin
+simpcw: "Sexqeltqin" #Sexqeltqin labled Simpcw
+xat_sull: "Tsqéscen" #misnamed Xat'sull, better as Tsqéscen
 n_shuswap_mtns: "North Shuswap Mountains"
 mica_creek: "Mica Creek"
-kinbasket: "Kinbasket"
+kinbasket: "Kenpésq't" #Kinbasket better spelled Kenpésq't
 karluk_peak: "Karluk Peak"
-moose_river: "Moose River" #############Find Better#################
+moose_river: "Yexyexéscen" #Moose River better Yexyexéscen
 monashee: "Monashee"
 cariboo: "Cariboo"
-crescent_spur: "Morkill"
+crescent_spur: "Morkil"
 e_shuswap_mtns: "East Shuswap Mountains"
 
 nidabun: "Nidabun"
@@ -21203,8 +21203,8 @@ beaver_plain: "Beaver Plains" #############Find Better#################
 southern_plains: "Southern Plains" #############Find Better#################
 sguuxs: "Sgüüxs"
 sm_algyax: "Sm'álgyax"
-nisga_a: "Nisga'a"
-gitxsanimaax: "Gitxsanimaax"
+nisga_a: "Gitxsanimaax" #actually Gitxsanimaax... literally people of the Xsan (Skeena) River
+gitxsanimaax: "Gitlax̱tʼaamiks" #actually Nisga'a capital
 kiis_gwaay: "Kiis'gwaay"
 gwaay_haanas: "Gwaay'haanas"
 k_alii_xkalaan: "K'alii'xkalaan"

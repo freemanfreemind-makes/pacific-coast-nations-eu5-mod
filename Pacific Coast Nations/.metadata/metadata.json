@@ -1,8 +1,8 @@
 ﻿{
-	"name":	"Pacific Coast Nations 1.9",
+	"name":	"Pacific Coast Nations 1.10",
 	"id":	"TheOneWhoIs.PacificCoastNations",
-	"version":	"1.9",
-	"supported_game_version":	"1.4.5",
+	"version":	"1.10",
+	"supported_game_version":	"1.4.9",
 	"short_description":	"The various nations of the pacific coast of north america were among the most advanced technologically in the americas. Dense settlements of 1000's to 10s of 1000's of residents dotted the coast and river systems from the California coast to Alaska.  Building masterful wooden buildings and boats, working metals including small amount of iron, and building trade networks stretching along the coast; these strong resilient nations resisted colonial efforts well into the 19th century. ",
 	"tags":	["Gameplay", "Map", "Historical", "Overhaul"],
 	"relationships":	[],

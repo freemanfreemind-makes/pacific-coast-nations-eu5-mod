@@ -28,7 +28,7 @@ TMH = { # Tsimishian
 	}
 }
 
-NGA = { # Nisga'a
+NGA0 = { # Nisga'a
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -38,7 +38,7 @@ NGA = { # Nisga'a
 	}
 }
 
-NPK = { # Nlakapamuk
+NPK0 = { # Nlakapamuk
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 
@@ -58,7 +58,7 @@ HLM = { # halqemeylem - musqueum flag for now, change later.
 	}
 }
 
-HLM2 = { # halqemeylem - musqueum flag for now, change later.
+HLM2 = { # musqueam
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 

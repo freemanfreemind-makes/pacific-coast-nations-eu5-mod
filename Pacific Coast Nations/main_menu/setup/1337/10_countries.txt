@@ -1,3 +1,56 @@
+########################### 10_countries Legend ###############################################
+
+# When a new patch modifies original 10_countries.txt, create a copy in a new file and remove the four chunks of factions listed below. Copy the below headers and paste to the removed sections, edit line numbers as needed. Setting bookmarks to these is a good idea in your editor of choice. Copy and paste this info at the top of the new file after the change is made. Make sure to compare base game factions included in livam_countries and pcn_countries with the new changes and update as needed to include relevant updates and prevent game breaking bugs.
+
+
+# Factions removed & files found in: ***line numbers of removed sections current to EU5 v1.4.9
+
+# Pacific Coast Nations
+	# Lines 61989 to 62291 removed from 00_countries.txt Kalapuya/KLP to Tlingit/TLG for Pacific Coast Nations mod - see pcn_countries.txt
+
+# Living Americas
+	# Lines 43455 to 49063 removed from 00_countries.txt P'urhipecherio/TAR to Quitor/QTR for Living Americas mod - see livam_countries.txt
+	# Lines 53206 to 53544 removed from 00_countries.txt Taontaenrat/TRT to Mississage/MSG for Living Americas mod - see livam_countries.txt
+	# Lines 55879 to 58180 removed from 00_countries.txt Kuikuro/KUI to Onghniaahra/ONG for Living Americas mod - see livam_countries.txt
+	# Lines 61388 to 62734 removed from 00_countries.txt Caddo/CAD to Charrua/CUA for Living Americas & Pacific Coast Nations mod - Kalapuya/KLP to Tlingit/TLG for pcn - see livam_countries.txt & pcn_countries.txt
+
+# 10_countries line numbers as of EU5 v1.3 ***may vary depending on update, but should be right area***
+#Region          Start   End
+#mesoamerica     41951   45283
+#aridoamerica    45284   45860
+#columbia        45861   46283
+#andes           46284   47543
+#----------------
+#tibet           47544   49728
+#SE asia         49729   51109
+#bengal          51110   51686
+#----------------
+#canada          51687   52026	# Canada - Taontaenrat TRT to Mississage MSG
+#----------------
+#indonesia       52027   53900
+#central africa  53901   54276
+#----------------
+#brazil          54277   54580
+#great lakes     54582   56587   haudenausaunee 55403 - 55408
+#----------------
+#persia          56588   58295
+#caucasus        58296   59786
+#---------------
+#mississippi     59787   60392	# Lower Mississippi, Gulf Coast, & East Coast Nations - Coosa COO to Onghniaahra ONG
+#pacific coast   60393   60755   #part of pacific coast nations mod
+#pacific int.    60755   60803   #part of american southwest
+#gulf coast      60804   60853   added ishak and others
+#east plains     60854   60949   added Lakota & Nakoda
+#e. coast NA     60950   61145   added Mi'kmaq
+#----------------
+#chaco           61146   61170
+#chile           61171   61215
+#----------------
+#s. africa       61216   61527
+#oceania         61527   61927
+
+############################### Factions Start Here #############################################
+
 current_age = age_1_traditions
 
 # own_control_core
@@ -11,52 +64,6 @@ current_age = age_1_traditions
 # control_core
 # control
 # our_cores_conquered_by_others
-#10_countries Legend
-
-# Factions removed & files found in:
-
-# pcn_countries.txt
-		# Pacific Northwest - Kalapuya KLP to Tlingit TLG*
-	# New Pacific Coast Nations Countries - Saanich WSN to Kaviag KVG
-
-
-# 10_countries Legend - line numbers may vary depending on update
-
-#Region          Start   End
-#mesoamerica     41951   45283
-#aridoamerica    45284   45860
-#columbia        45861   46283
-#andes           46284   47543
-#----------------
-#tibet           47544   49728
-#SE asia         49729   51109
-#bengal          51110   51686
-#----------------
-#canada          51687   52026
-#----------------
-#indonesia       52027   53900
-#central africa  53901   54276
-#----------------
-#brazil          54277   54580
-#great lakes     54582   56587   haudenausaunee 55403 - 55408
-#----------------
-#persia          56588   58295
-#caucasus        58296   59786
-#---------------
-#mississippi      59787   60392
-#pacific coast   60393   60755   #part of pacific coast nations mod
-#pacific int.    60755   60803   #part of american southwest
-#gulf coast      60804   60853   added ishak and others
-#east plains     60854   60949   added Lakota & Nakoda
-#e. coast NA     60950   61145   added Mi'kmaq
-#----------------
-#chaco           61146   61170
-#chile           61171   61215
-#----------------
-#s. africa       61216   61527
-#oceania         61527   61927
-
-
 
 countries = {
 	countries = {
@@ -12144,8 +12151,6 @@ countries = {
 			type = republic
 			heir_selection = podesta_elective
 
-			ruler_term = { character = gor_john_henry_iv_gorizia start_date = 1332.12.1 end_date = 1333.12.1 regnal_number = 0 }
-
 			reforms = {
 				signoria_reform
 			}
@@ -12241,7 +12246,7 @@ countries = {
 	VEN = {
 		own_control_core = {
 			venice chioggia
-			pola rovinj pag zadar split brac
+			pola rovinj pag zadar split brac sibenik
 		}
 
 		own_control_integrated = {
@@ -13933,11 +13938,11 @@ countries = {
 
 	CRO = {
 		own_control_core = {
-			sibenik kaseg knin novigrad crikvenica senj
+			kaseg knin novigrad crikvenica senj
 			bihac krk srb sinj otocac
 		}
 		our_cores_conquered_by_others = {
-			zadar split
+			zadar split sibenik
 		}
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -14654,6 +14659,7 @@ countries = {
 				clergy_military_orders
 				#Commoners
 				cas_caballeros_villanos
+				ayuntamientos
 			}
 
 			laws = {
@@ -14961,7 +14967,14 @@ countries = {
 				jewish_physician_exemption
 				dhimmi_pact_of_umar
 				al_caid
+				andalusi_elite
 				treasury_rights
+			}
+			privilege = {
+				has_dlc = "d009_across_the_pillars"
+				gra_visirate
+				gra_ulema_council
+				gra_volunteers_of_faith
 			}
 			parliament = {
 				has_dlc = "d009_across_the_pillars"
@@ -15276,6 +15289,20 @@ countries = {
 			provins
 			peyrusse entraigues st_affrique
 			allegre chalancon peyre chateauneuf_de_randon florac st_ambroix
+
+			#C. de Champagne
+			chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
+			chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
+			rosnay choiseul
+
+			#Too small/unimportant appanages
+			guise hirson
+
+			#Too small/unimportant vassals (fiefs movants)
+			coucy marle #S. Coucy
+			brienne #C. Brienne
+			joinville #S. Joinville
+			grandpre #C. Grandpre
 		}
 		own_control_integrated = {
 			#Appanages
@@ -15286,19 +15313,10 @@ countries = {
 			talmont beauvoir mauleon_poitou
 
 			#C. de Champagne
-			chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
-			chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
-			rosnay villemaur choiseul
-
-			#Too small/unimportant appanages
-			guise hirson
+			villemaur
 
 			#Too small/unimportant vassals (fiefs movants)
-			coucy marle #S. Coucy
 			saint_gaudens #Vic. des Quatre Valles
-			brienne #C. Brienne
-			joinville #S. Joinville
-			grandpre #C. Grandpre
 		}
 
 		own_control_conquered = {
@@ -15422,14 +15440,17 @@ countries = {
 			}
 		}
 
+		accepted_cultures = {
+			picard
+			champenais
+		}
+
 		tolerated_cultures = {
 			arpitan
 			languedocien
-			picard
 			gascon
 			burgundian
 			auvergnat
-			champenais
 			limousin
 			poitevin
 			saintongeais
@@ -18878,7 +18899,7 @@ countries = {
 		court_language = church_slavonic_language
 
 		country_rank = rank_duchy
-		capital = targoviste
+		capital = arges
 	}
 
 	BIA = {	#Baia
@@ -19537,6 +19558,13 @@ countries = {
 			privilege = {
 				has_dlc = "d009_across_the_pillars"
 				mor_andalusian_refugees
+				mor_makhzen_caids
+				mor_marabout_patronage
+				mor_gharb_war_tribes
+			}
+			reforms = {
+				has_dlc = "d009_across_the_pillars"
+				mor_marinid_zenata_confederation_reform
 			}
 			laws = {
 				amazigh_familial_connections = reliance_on_local_tribes
@@ -21931,6 +21959,9 @@ countries = {
 			laws = {
 				sharia_law = maliki_policy
 			}
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1250.1.1 entrenchment = 50 }
+			}
 		}
 
 		tolerated_cultures = {
@@ -22413,6 +22444,9 @@ countries = {
 			laws = {
 				sharia_law = shafii_policy
 			}
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1250.1.1 entrenchment = 50 }
+			}
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
@@ -22697,6 +22731,9 @@ countries = {
 			laws = {
 				sharia_law = shafii_policy
 			}
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1250.1.1 entrenchment = 50 }
+			}
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
@@ -22969,6 +23006,9 @@ countries = {
 			laws = {
 				sharia_law = shafii_policy
 			}
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1250.1.1 entrenchment = 50 }
+			}
 		}
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
@@ -23237,7 +23277,7 @@ countries = {
 				iqta_law = lenient_taxation
 			}
 			bureaucracies = {
-				{ type = bayt_al_mal_bureaucracy date = 1250.1.1 entrenchment = 75s }
+				{ type = bayt_al_mal_bureaucracy date = 1250.1.1 entrenchment = 75 }
 				# Baybars I refined the Mamluk barid into a sophisticated relay-and-intelligence network.
 				{ type = barid_bureaucracy date = 1261.1.1 entrenchment = 75 }
 			}
@@ -33575,6 +33615,9 @@ countries = {
 
 				trunk_road_to_erzurum_privilege
 			}
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1300.1.1 entrenchment = 40 }
+			}
 		}
 
 		country_rank = rank_duchy
@@ -34558,7 +34601,7 @@ countries = {
 
 			centralization_vs_decentralization = 10
 			aristocracy_vs_plutocracy = -30
-			serfdom_vs_free_subjects = 0
+			serfdom_vs_free_subjects = -50
 			traditionalist_vs_innovative = 10
 			spiritualist_vs_humanist = 10
 			mercantilism_vs_free_trade = -25
@@ -34611,6 +34654,9 @@ countries = {
 				sharia_law = hanafi_policy
 				harem_law = secluded_harem_policy
 			}
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1300.1.1 entrenchment = 40 }
+			}
 		}
 
 		tolerated_cultures = {
@@ -34621,6 +34667,7 @@ countries = {
 		capital = bursa
 		ai_advance_preference_tags = {
 			warfare = 1
+			land = 1
 		}
 		country_rank = rank_duchy
 
@@ -58445,6 +58492,9 @@ countries = {
 
 			ruler = krt_mu_izz_uddin_husayn_ibn_ghiyath_uddin
 
+			bureaucracies = {
+				{ type = bayt_al_mal_bureaucracy date = 1200.1.1 entrenchment = 75 }
+			}
 		}
 
 		tolerated_cultures = {
@@ -61990,30 +62040,7 @@ countries = {
 		}
 	}
 
-
-
-
-
-
-
-
-	#########################
-	# PCN Mod - Don't touch - make requirement for mod
-	########################
-# pcn_countries.txt
-		# Pacific Northwest - Kalapuya KLP to Tlingit TLG
-	# New Pacific Coast Nations Countries - Saanich WSN to Kaviag KVG
-
-
-
-
-
-
-
-
-
-
-
+# Lines 61989 to 62291 removed from 00_countries.txt Kalapuya/KLP to Tlingit/TLG for Pacific Coast Nations mod - see pcn_countries.txt
 
 	#Hisatsinom
 	HTS = {

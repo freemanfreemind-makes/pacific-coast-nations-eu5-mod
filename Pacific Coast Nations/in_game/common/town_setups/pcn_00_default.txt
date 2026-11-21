@@ -4,20 +4,50 @@
 
 westcoast_town = {
 	market_village = 1
-	stone_quarry = 1
 	tools_guild = 1
 	mason = 1
 	tar_kiln = 1
 	granary = 1
 }
 
-westcoast_coastal_town = {
+westcoast_rural_settlement_1 = {
+	market_village = 1
+}
+
+westcoast_rural_settlement_2 = {
 	market_village = 1
 	stone_quarry = 1
+}
+
+westcoast_rural_settlement_3 = {
+	market_village = 1
+	fishing_village = 1
+	stone_quarry = 1
+}
+
+westcoast_rural_settlement_4 = {
+	market_village = 1
+	forest_village = 1
+}
+
+westcoast_coastal_town = {
+	market_village = 1
 	tools_guild = 1
 	mason = 1
-	clay_pit = 1
 	salt_collector = 1
 }
 
+westcoast_coastal_rural_settlement_1 = {
+	market_village = 1
+	fishing_village = 1
+}
 
+westcoast_coastal_rural_settlement_2 = {
+	fishing_village = 1
+	market_village = 1
+	clay_pit = 1
+}
+
+westcoast_coastal_rural_settlement_3 = {
+	fishing_village = 1
+}

@@ -1,0 +1,42 @@
+﻿pcn_beards = {
+	usage = game
+	selection_behavior = weighted_random
+    priority = 1
+
+	pcn_beards = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = pcn_beards
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				portrait_clothing_trigger = { CULTURE_FLAG = pcn_gfx }
+			}
+		}
+	}
+
+	pcn_south_beards = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = pcn_south_beards
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				portrait_clothing_trigger = { CULTURE_FLAG = pcn_south_gfx }
+			}
+		}
+	}
+
+}

@@ -3,7 +3,7 @@ government = {
 	type = tribe
 	heir_selection = tribal_oldest_male
 
-	centralization_vs_decentralization = 80
+	centralization_vs_decentralization = 100
 	traditionalist_vs_innovative = -70
 	spiritualist_vs_humanist = -60
 	aristocracy_vs_plutocracy = -60
