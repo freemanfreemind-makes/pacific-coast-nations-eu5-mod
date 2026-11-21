@@ -1,7 +1,3 @@
-discovered_regions = {
-	#
-}
-
 discovered_areas = {
 	cascadia_area
 	northwest_coast_area
@@ -85,7 +81,6 @@ discovered_locations = {
 	south_canal
 	north_canal
 	san_catalina_island
-
 	k_alii_xkalaan
 	yana
 	seneca

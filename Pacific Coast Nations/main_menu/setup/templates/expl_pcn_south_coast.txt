@@ -1,7 +1,3 @@
-discovered_regions = {
-	#
-}
-
 discovered_areas = {
 	california_area
 	great_basin_area

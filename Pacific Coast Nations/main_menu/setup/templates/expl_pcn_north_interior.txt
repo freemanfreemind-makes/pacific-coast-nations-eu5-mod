@@ -1,7 +1,3 @@
-discovered_regions = {
-	#
-}
-
 discovered_areas = {
 	cascadia_area
 	northwest_coast_area

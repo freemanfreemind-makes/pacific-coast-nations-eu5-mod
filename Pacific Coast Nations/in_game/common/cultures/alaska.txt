@@ -32,7 +32,7 @@ sekani_culture = {  #https://en.wikipedia.org/wiki/Sekani
 	
 	color = map_sekani
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 	
 	opinions = {
 	}
@@ -46,7 +46,7 @@ dunezza_culture = {
 	
 	color = map_dunezza
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 	
 	opinions = {
 	}
@@ -88,7 +88,7 @@ ingalik_culture = {
 	
 	color = map_ingalik
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 	
 	opinions = {
 	}
@@ -102,7 +102,7 @@ nahani_culture = {
 	
 	color = map_nahani
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 	
 	opinions = {
 	}
@@ -116,7 +116,7 @@ kaska_culture = {
 	
 	color = map_kaska
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -158,7 +158,7 @@ tanaina_culture = {
 	
 	color = map_tanaina
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 
 	
 	opinions = {
@@ -173,7 +173,7 @@ koyukon_culture = {
 	
 	color = map_koyukon
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 	
 	opinions = {
 	}
@@ -187,7 +187,7 @@ tanana_culture = {
 	
 	color = map_tanana
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 	
 	opinions = {
 	}
@@ -201,7 +201,7 @@ nabesna_culture = {
 	
 	color = map_nabesna
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 
 	
 	opinions = {
@@ -216,7 +216,7 @@ ahtna_culture = {
 	
 	color = map_ahtna
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -230,7 +230,7 @@ dan_ke_culture = {
 	
 	color = map_dan_ke
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -244,7 +244,7 @@ dan_ki_culture = {
 	
 	color = map_dan_ki
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -258,7 +258,7 @@ haen_culture = {
 	
 	color = map_haen
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -272,7 +272,7 @@ gwichin_culture = {
 	
 	color = map_gwichin
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -286,7 +286,7 @@ sahtu_culture = {
 	
 	color = map_sahtu
 	
-	tags = { native_american_tag north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -300,7 +300,7 @@ chugash_culture = {
 	
 	color = map_chugash
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -314,7 +314,7 @@ kaniag_culture = {
 	
 	color = map_kaniag
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -328,7 +328,7 @@ unalaska_culture = {  #https://en.wikipedia.org/wiki/Aleuts
 	
 	color = map_unalaska
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -342,7 +342,7 @@ atka_culture = {
 	
 	color = map_atka
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -356,7 +356,7 @@ attu_culture = {
 	
 	color = map_attu
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -370,7 +370,7 @@ ogul_culture = {
 	
 	color = map_ogul
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -384,7 +384,7 @@ nushag_culture = {
 	
 	color = map_nushag
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -398,7 +398,7 @@ togiag_culture = {
 	
 	color = map_togiag
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -412,7 +412,7 @@ kuskokwag_culture = {
 	
 	color = map_kuskokwag
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -426,7 +426,7 @@ nunivag_culture = {
 	
 	color = map_nunivag
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -440,7 +440,7 @@ kaialig_culture = {
 	
 	color = map_kaialig
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -454,7 +454,7 @@ magemiut_culture = {
 	
 	color = map_magemiut
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -468,7 +468,7 @@ ikog_culture = {
 	
 	color = map_ikog
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -482,7 +482,7 @@ unalig_culture = {
 	
 	color = map_unalig
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -496,7 +496,7 @@ malemiut_culture = {
 	
 	color = map_malemiut
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -510,7 +510,7 @@ kaviag_culture = {
 	
 	color = map_kaviag
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -524,7 +524,7 @@ kinug_culture = {
 	
 	color = map_kinug
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -538,7 +538,7 @@ inuviluq_culture = {
 	
 	color = map_inuviluq
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -552,7 +552,7 @@ inuinnait_culture = {
 	
 	color = map_inuinnait
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}
@@ -566,7 +566,7 @@ inupiaq_culture = {
 	
 	color = map_inupiaq
 	
-	tags = { native_american_tag pcn_gfx north_american_gfx american_gfx }
+	tags = { native_american_tag la_arctic_gfx pcn_gfx north_american_gfx american_gfx }
 
 	opinions = {
 	}

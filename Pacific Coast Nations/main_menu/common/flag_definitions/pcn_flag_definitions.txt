@@ -1,4 +1,4 @@
-XDA = { # Haida
+﻿XDA = { # Haida
 	flag_definition = {
 		coa = XDA
 		priority = 1
@@ -19,16 +19,16 @@ TMH = { # Tsimishian
 	}
 }
 
-NGA = { # Nisga'a
+NGA0 = { # Nisga'a
 	flag_definition = {
-		coa = NGA
+		coa = NGA0
 		priority = 1
 	}
 }
 
-NPK = { # Nlakapamuk
+NPK0 = { # Nlakapamuk
 	flag_definition = {
-		coa = NPK
+		coa = NPK0
 		priority = 1
 	}
 }

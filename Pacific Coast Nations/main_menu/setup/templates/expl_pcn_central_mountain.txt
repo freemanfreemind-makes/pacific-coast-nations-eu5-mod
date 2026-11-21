@@ -1,7 +1,3 @@
-discovered_regions = {
-	#
-}
-
 discovered_areas = {
 	cascadia_area
 	great_basin_area
@@ -43,8 +39,4 @@ discovered_provinces = {
 	kusiutta_province
 	west_shoshone_province
 	humboldt_province
-}
-
-discovered_locations = {
-	#
 }

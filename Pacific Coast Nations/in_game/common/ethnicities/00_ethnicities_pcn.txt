@@ -27,7 +27,7 @@ pcn_ethnicity = {
 	}
 	
 	hair_styles = {
-		1 = { name = aztec_hair		range = { 0.0 0.8 } }
+		1 = { name = pcn_hair		range = { 0.0 0.8 } }
 	}
 
 	gene_cheek_def = {

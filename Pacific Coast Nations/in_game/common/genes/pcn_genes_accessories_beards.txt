@@ -1,0 +1,47 @@
+﻿accessory_genes = {
+
+	INJECT_OR_CREATE:beards = {
+	pcn_beards = {
+			index = 1000
+			male = {
+				25 = empty
+				1 = beard_german_long_01
+				1 = beard_german_short_01
+				5 = beard_german_goatee_02
+				2 = beard_german_mustache_01
+				1 = beard_german_mustache_02
+				1 = beard_asian_full_manchu
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+		}
+
+	pcn_south_beards = {
+			index = 1001
+			male = {
+				30 = empty
+				1 = beard_german_goatee_02
+				1 = beard_german_mustache_01
+				1 = beard_german_mustache_02
+				1 = beard_asian_full_manchu
+			}
+			female = {
+				1 = empty
+			}
+			boy = {
+				1 = empty
+			}
+			girl = {
+				1 = empty
+			}
+		}
+
+	}
+}

@@ -111,13 +111,16 @@ sm_algyax = {
 	define_pop = {	type = slaves	size = 0.750	culture = tlingit_culture	religion = dene_totemism }
 }
 nisga_a = {
-	define_pop = {	type = tribesmen	size = 2.500	culture = tsimshian_culture	religion = dene_totemism }
-	define_pop = {	type = peasants	size = 2.500	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = tribesmen	size = 1.000	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = peasants	size = 1.000	culture = tsimshian_culture	religion = dene_totemism }
 }
 gitxsanimaax = {
-	define_pop = {	type = peasants	size = 2.500	culture = tsimshian_culture	religion = dene_totemism }
-	define_pop = {	type = tribesmen	size =2.500	culture = tsimshian_culture	religion = dene_totemism }
-	define_pop = {	type = slaves	size = 0.750	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = nobles	size = 0.020	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = clergy	size = 0.050	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = burghers	size = 0.500	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = peasants	size = 3.250	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = tribesmen	size = 3.000	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = slaves	size = 0.750	culture = tlingit_culture	religion = dene_totemism }
 }
 kiis_gwaay = {
 	define_pop = {	type = nobles	size = 0.020	culture = haida_culture	religion = dene_totemism }
@@ -134,16 +137,16 @@ saanya = {
 	define_pop = {	type = peasants	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
 }
 taant_a = {
-	define_pop = {	type = tribesmen	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
-	define_pop = {	type = peasants	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
-}
-shtax_heen = {
 	define_pop = {	type = nobles	size = 0.020	culture = tlingit_culture	religion = dene_totemism }
 	define_pop = {	type = clergy	size = 0.050	culture = tlingit_culture	religion = dene_totemism }
 	define_pop = {	type = burghers	size = 0.500	culture = tlingit_culture	religion = dene_totemism }
 	define_pop = {	type = peasants	size = 2.250	culture = tlingit_culture	religion = dene_totemism }
 	define_pop = {	type = tribesmen	size = 2.000	culture = tlingit_culture	religion = dene_totemism }
 	define_pop = {	type = slaves	size = 0.500	culture = haisla_culture	religion = dene_totemism }
+}
+shtax_heen = {
+	define_pop = {	type = tribesmen	size = 0.800	culture = tlingit_culture	religion = dene_totemism }
+	define_pop = {	type = peasants	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
 }
 s_awdaan = {
 	define_pop = {	type = tribesmen	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
@@ -162,7 +165,7 @@ t_aaku = {
 	define_pop = {	type = peasants	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
 }
 jilkaat = {
-	define_pop = {	type = tribesmen	size = 0.800	culture = tlingit_culture	religion = dene_totemism }
+	define_pop = {	type = tribesmen	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
 	define_pop = {	type = peasants	size = 1.000	culture = tlingit_culture	religion = dene_totemism }
 }
 aa_kw = {
@@ -862,37 +865,37 @@ chandalar_forest = {
 gwichin_uplands = {
 }
 ulkatchot_en = {
-	define_pop = {	type = tribesmen	size = 0.212	culture = dakelh_culture	religion = dene_religion }
+	define_pop = {	type = tribesmen	size = 1.212	culture = dakelh_culture	religion = dene_religion }
 }
 nazkot_en = {
-	define_pop = {	type = tribesmen	size = 0.212	culture = dakelh_culture	religion = dene_religion }
+	define_pop = {	type = tribesmen	size = 1.212	culture = dakelh_culture	religion = dene_religion }
 }
 lhoosk_uzt_en = {
-	define_pop = {	type = tribesmen	size = 0.212	culture = dakelh_culture	religion = dene_religion }
+	define_pop = {	type = tribesmen	size = 1.212	culture = dakelh_culture	religion = dene_religion }
 }
 saik_uz = {
-	define_pop = {	type = tribesmen	size = 0.212	culture = dakelh_culture	religion = dene_religion }
+	define_pop = {	type = tribesmen	size = 1.212	culture = dakelh_culture	religion = dene_religion }
 }
 cheslattat_en = {
-	define_pop = {	type = tribesmen	size = 0.212	culture = dakelh_culture	religion = dene_religion }
+	define_pop = {	type = tribesmen	size = 1.212	culture = dakelh_culture	religion = dene_religion }
 }
 nechakot_en = {
-	define_pop = {	type = tribesmen	size = 0.212	culture = dakelh_culture	religion = dene_religion }
+	define_pop = {	type = tribesmen	size = 1.212	culture = dakelh_culture	religion = dene_religion }
 }
 lheidlit_en = {
-	define_pop = {	type = peasants	size = 1.000	culture = dakelh_culture	religion = dene_religion }
-	define_pop = {	type = tribesmen	size = 0.212	culture = dakelh_culture	religion = dene_religion }
+	define_pop = {	type = tribesmen	size = 1.212	culture = dakelh_culture	religion = dene_religion }
 }
 nat_oot_en = {
-	define_pop = {	type = peasants	size = 2.000	culture = dakelh_culture	religion = dene_religion }
+	define_pop = {	type = peasants	size = 1.000	culture = dakelh_culture	religion = dene_religion }
 	define_pop = {	type = tribesmen	size = 0.212	culture = dakelh_culture	religion = dene_religion }
 }
 nadleh_whuten = {
 	define_pop = {	type = nobles	size = 0.020	culture = dakelh_culture	religion = dene_religion }
 	define_pop = {	type = clergy	size = 0.050	culture = dakelh_culture	religion = dene_religion }
 	define_pop = {	type = burghers	size = 0.500	culture = dakelh_culture	religion = dene_religion }
-	define_pop = {	type = peasants	size = 5.250	culture = dakelh_culture	religion = dene_religion }
+	define_pop = {	type = peasants	size = 1.250	culture = dakelh_culture	religion = dene_religion }
 	define_pop = {	type = slaves	size = 1.000	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = tribesmen	size = 2.212	culture = dakelh_culture	religion = dene_religion }
 }
 yekooche = {
 	define_pop = {	type = peasants	size = 1.000	culture = dakelh_culture	religion = dene_religion }
@@ -911,7 +914,7 @@ khelhghubunt_en = {
 	define_pop = {	type = tribesmen	size = 0.212	culture = dakelh_culture	religion = dene_religion }
 }
 a_taw_bun_kut_en = {
-	define_pop = {	type = peasants	size = 2.000	culture = dakelh_culture	religion = dene_religion }
+	define_pop = {	type = peasants	size = 1.000	culture = dakelh_culture	religion = dene_religion }
 	define_pop = {	type = tribesmen	size = 0.212	culture = dakelh_culture	religion = dene_religion }
 }
 nidabun = {
@@ -957,6 +960,7 @@ ts_il_kaz_koh = {
 	define_pop = {	type = tribesmen	size = 0.212	culture = wetsuweten_culture	religion = dene_religion }
 }
 witset = {
+	define_pop = {	type = peasants	size = 1.000	culture = wetsuweten_culture	religion = dene_religion }
 	define_pop = {	type = tribesmen	size = 0.212	culture = wetsuweten_culture	religion = dene_religion }
 }
 hagwilget = {
@@ -973,7 +977,8 @@ wet_suwet_en = {
 	define_pop = {	type = nobles	size = 0.020	culture = wetsuweten_culture	religion = dene_religion }
 	define_pop = {	type = clergy	size = 0.050	culture = wetsuweten_culture	religion = dene_religion }
 	define_pop = {	type = burghers	size = 0.500	culture = wetsuweten_culture	religion = dene_religion }
-	define_pop = {	type = peasants	size = 7.250	culture = wetsuweten_culture	religion = dene_religion }
+	define_pop = {	type = peasants	size = 2.250	culture = wetsuweten_culture	religion = dene_religion }
+	define_pop = {	type = tribesmen	size = 3.212	culture = wetsuweten_culture	religion = dene_religion }
 }
 sguuxs = {
 	define_pop = {	type = peasants	size = 1.000	culture = wetsuweten_culture	religion = dene_religion }
@@ -997,16 +1002,16 @@ hominka = {
 	define_pop = {	type = tribesmen	size = 0.212	culture = sekani_culture	religion = dene_religion }
 }
 ingenika = {
-	define_pop = {	type = tribesmen	size = 0.212	culture = sekani_culture	religion = dene_religion }
+	define_pop = {	type = tribesmen	size = 1.212	culture = sekani_culture	religion = dene_religion }
 }
 mesilinka = {
-	define_pop = {	type = tribesmen	size = 0.212	culture = sekani_culture	religion = dene_religion }
+	define_pop = {	type = tribesmen	size = 1.212	culture = sekani_culture	religion = dene_religion }
 }
 yutuwichan = {
 	define_pop = {	type = tribesmen	size = 0.212	culture = sekani_culture	religion = dene_religion }
 }
 tsekani = {
-	define_pop = {	type = tribesmen	size = 0.212	culture = sekani_culture	religion = dene_religion }
+	define_pop = {	type = tribesmen	size = 1.212	culture = sekani_culture	religion = dene_religion }
 }
 williston = {
 	define_pop = {	type = tribesmen	size = 0.212	culture = sekani_culture	religion = dene_shamanism }
@@ -1052,10 +1057,10 @@ omineca_mountains = {
 }
 k_alii_xkalaan = {
 	define_pop = {	type = peasants	size = 1.000	culture = tsimshian_culture	religion = dene_totemism }
-	define_pop = {	type = tribesmen	size = 0.212	culture = tsimshian_culture	religion = dene_totemism }
+	define_pop = {	type = tribesmen	size = 2.212	culture = tsimshian_culture	religion = dene_totemism }
 }
 chiyone = {
-	define_pop = {	type = tribesmen	size = 0.159	culture = nahani_culture	religion = dene_shamanism }
+	define_pop = {	type = tribesmen	size = 0.559	culture = nahani_culture	religion = dene_shamanism }
 }
 tses_kiya_trail = {
 }
@@ -1583,7 +1588,7 @@ noptinte = {
 	define_pop = {	type = peasants	size = 2.000	culture = north_valley_yokut_culture	religion = pomo_shamanism }
 }
 gashowu = {
-	define_pop = {	type = tribesmen	size = 0.491	culture = foothill_yokut_culture	religion = pomo_shamanism }
+	define_pop = {	type = tribesmen	size = 0.891	culture = foothill_yokut_culture	religion = pomo_shamanism }
 }
 tachi = {
 	define_pop = {	type = nobles	size = 0.020	culture = south_valley_yokut_culture	religion = pomo_shamanism }
@@ -1599,7 +1604,7 @@ koyeti = {
 	define_pop = {	type = peasants	size = 2.000	culture = south_valley_yokut_culture	religion = pomo_shamanism }
 }
 yawdanshi = {
-	define_pop = {	type = tribesmen	size = 0.491	culture = foothill_yokut_culture	religion = pomo_shamanism }
+	define_pop = {	type = tribesmen	size = 0.891	culture = foothill_yokut_culture	religion = pomo_shamanism }
 }
 tulumni = {
 	define_pop = {	type = peasants	size = 2.000	culture = tulumni_culture	religion = pomo_shamanism }
@@ -1859,13 +1864,13 @@ tubatulabam = {
 	define_pop = {	type = tribesmen	size = 0.701	culture = monachi_culture	religion = paiute_shamanism }
 }
 timbisha = {
-	define_pop = {	type = tribesmen	size = 0.600	culture = timbisha_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = timbisha_culture	religion = paiute_shamanism }
 }
 kuzedika = {
 	define_pop = {	type = tribesmen	size = 0.701	culture = monachi_culture	religion = paiute_shamanism }
 }
 fish_lake = {
-	define_pop = {	type = tribesmen	size = 0.700	culture = timbisha_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = timbisha_culture	religion = paiute_shamanism }
 }
 inyo_mountains = {
 }
@@ -1873,75 +1878,75 @@ tumpisa = {
 	define_pop = {	type = tribesmen	size = 0.100	culture = timbisha_culture	religion = paiute_shamanism }
 }
 havasu = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuwuvu_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuwuvu_culture	religion = paiute_shamanism }
 }
 ivanpah = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuwuvu_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuwuvu_culture	religion = paiute_shamanism }
 }
 pah_rimpi = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuwuvu_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuwuvu_culture	religion = paiute_shamanism }
 }
 moapa = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuwuvu_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuwuvu_culture	religion = paiute_shamanism }
 }
 sebit = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuwuvi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuwuvi_culture	religion = paiute_shamanism }
 }
 amargosa = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuwuvi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuwuvi_culture	religion = paiute_shamanism }
 }
 nuwuvi_desert = {
 }
 parrusit = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuwuvi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuwuvi_culture	religion = paiute_shamanism }
 }
 uinkaret = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuwuvi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuwuvi_culture	religion = paiute_shamanism }
 }
 kaibab = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuwuvi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuwuvi_culture	religion = paiute_shamanism }
 }
 quitchupah = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuwuvi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuwuvi_culture	religion = paiute_shamanism }
 }
 kaiparowit = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuwuvi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuwuvi_culture	religion = paiute_shamanism }
 }
 nuwuvi_wasteland = {
 }
 koosharem = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = kusiutta_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = kusiutta_culture	religion = paiute_shamanism }
 }
 pierruiat = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = kusiutta_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = kusiutta_culture	religion = paiute_shamanism }
 }
 tooele = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = kusiutta_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = kusiutta_culture	religion = paiute_shamanism }
 }
 unkagarit = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = kusiutta_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = kusiutta_culture	religion = paiute_shamanism }
 }
 pio_gwut = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = kusiutta_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = kusiutta_culture	religion = paiute_shamanism }
 }
 seuhubeogoi = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = kusiutta_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = kusiutta_culture	religion = paiute_shamanism }
 }
 pagayuat = {
 }
 salt_lake = {
 }
 kawich = {
-	define_pop = {	type = tribesmen	size = 0.700	culture = wiyimpihtikka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = wiyimpihtikka_culture	religion = paiute_shamanism }
 }
 akamba = {
-	define_pop = {	type = tribesmen	size = 0.700	culture = wiyimpihtikka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = wiyimpihtikka_culture	religion = paiute_shamanism }
 }
 tsaiduka = {
-	define_pop = {	type = tribesmen	size = 0.700	culture = wiyimpihtikka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = wiyimpihtikka_culture	religion = paiute_shamanism }
 }
 kutsipiuti = {
-	define_pop = {	type = tribesmen	size = 0.700	culture = wiyimpihtikka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = wiyimpihtikka_culture	religion = paiute_shamanism }
 }
 newe_wasteland = {
 }
@@ -1964,19 +1969,19 @@ humbokado = {
 atsa_kudok_wa = {
 }
 tipatikka = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = watatikka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = watatikka_culture	religion = paiute_shamanism }
 }
 tsogwiyuyugi = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = watatikka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = watatikka_culture	religion = paiute_shamanism }
 }
 kuyatikka = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = watatikka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = watatikka_culture	religion = paiute_shamanism }
 }
 mahaguatikka = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = watatikka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = watatikka_culture	religion = paiute_shamanism }
 }
 watatikka = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = watatikka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = watatikka_culture	religion = paiute_shamanism }
 }
 tosa_konoki = {
 }
@@ -2072,19 +2077,19 @@ yam_pah_pa = {
 	define_pop = {	type = peasants	size = 1.000	culture = penkwitikka_culture	religion = paiute_shamanism }
 }
 buenaventura = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = tetadeka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = tetadeka_culture	religion = paiute_shamanism }
 }
 morgan = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = tetadeka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = tetadeka_culture	religion = paiute_shamanism }
 }
 yoov_we_teuh = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = tetadeka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = tetadeka_culture	religion = paiute_shamanism }
 }
 so_so_goiw = {
 	define_pop = {	type = peasants	size = 1.000	culture = haivodika_culture	religion = paiute_shamanism }
 }
 randolph = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = tetadeka_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = tetadeka_culture	religion = paiute_shamanism }
 }
 boa_ogoi = {
 	define_pop = {	type = peasants	size = 1.000	culture = haivodika_culture	religion = paiute_shamanism }
@@ -2134,19 +2139,19 @@ waradika = {
 bannock_range = {
 }
 sahpeech = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 yoowetum = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 pahva_nits = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 cumumba = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 toompahnahwach = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 nuchiu_range = {
 }
@@ -2232,57 +2237,57 @@ arapaho = {
 colorado = {
 }
 moanunts = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = dine_culture	religion = dene_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = dine_culture	religion = dene_shamanism }
 }
 winimuc = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = dine_culture	religion = dene_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = dine_culture	religion = dene_shamanism }
 }
 to_aheedliinii = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = dine_culture	religion = dene_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = dine_culture	religion = dene_shamanism }
 }
 wasatch = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 uncompaghre = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 nuchiu = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 tavaputs = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 uintah = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 taveewach = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 pahdteeahnooch = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 yapudttka = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 c_nuchiu_range = {
 }
 ouray = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 moffat = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 routt = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 dagett = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 savery = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 basawunena = {
-	define_pop = {	type = tribesmen	size = 0.701	culture = nuuchi_culture	religion = paiute_shamanism }
+	define_pop = {	type = tribesmen	size = 0.0	culture = nuuchi_culture	religion = paiute_shamanism }
 }
 bridger = {
 	define_pop = {	type = tribesmen	size = 0.701	culture = kuccuntikka_culture	religion = paiute_shamanism }
@@ -2391,7 +2396,7 @@ watlala = {
 	define_pop = {	type = peasants	size = 1.000	culture = chinook_culture	religion = pomo_shamanism }
 }
 stlpulmsh = {
-	define_pop = {	type = tribesmen	size = 1.500	culture = chehalis_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 2.500	culture = chehalis_culture	religion = salishan_totemism }
 	define_pop = {	type = peasants	size = 1.000	culture = chehalis_culture	religion = salishan_totemism }
 }
 chehalis = {
@@ -2454,7 +2459,7 @@ wishram = {
 	define_pop = {	type = peasants	size = 1.000	culture = chehalis_culture	religion = salishan_totemism }
 }
 klikitat = {
-	define_pop = {	type = peasants	size = 3.750	culture = chehalis_culture	religion = salishan_totemism }
+	define_pop = {	type = peasants	size = 1.750	culture = chehalis_culture	religion = salishan_totemism }
 	define_pop = {	type = slaves	size = 1.000	culture = kalapuyan_culture	religion = salishan_totemism }
 }
 mamachatpam = {
@@ -2490,25 +2495,25 @@ towarnehiooks = {
 	define_pop = {	type = peasants	size = 1.000	culture = molalla_culture	religion = pomo_shamanism }
 }
 wallowa = {
-	define_pop = {	type = tribesmen	size = 1.500	culture = nimiipuu_culture	religion = pomo_shamanism }
+	define_pop = {	type = tribesmen	size = 1.000	culture = nimiipuu_culture	religion = pomo_shamanism }
 }
 alpowna = {
-	define_pop = {	type = tribesmen	size = 1.500	culture = nimiipuu_culture	religion = pomo_shamanism }
+	define_pop = {	type = tribesmen	size = 1.000	culture = nimiipuu_culture	religion = pomo_shamanism }
 }
 hinsepu = {
-	define_pop = {	type = tribesmen	size = 1.500	culture = nimiipuu_culture	religion = pomo_shamanism }
+	define_pop = {	type = tribesmen	size = 1.000	culture = nimiipuu_culture	religion = pomo_shamanism }
 }
 kamiahpu = {
-	define_pop = {	type = tribesmen	size = 1.500	culture = nimiipuu_culture	religion = pomo_shamanism }
+	define_pop = {	type = tribesmen	size = 1.000	culture = nimiipuu_culture	religion = pomo_shamanism }
 }
 asahkaiowaipu = {
-	define_pop = {	type = tribesmen	size = 1.500	culture = nimiipuu_culture	religion = pomo_shamanism }
+	define_pop = {	type = tribesmen	size = 1.000	culture = nimiipuu_culture	religion = pomo_shamanism }
 }
 lamatama = {
-	define_pop = {	type = tribesmen	size = 1.500	culture = nimiipuu_culture	religion = pomo_shamanism }
+	define_pop = {	type = tribesmen	size = 1.000	culture = nimiipuu_culture	religion = pomo_shamanism }
 }
 iyeesnime = {
-	define_pop = {	type = tribesmen	size = 1.500	culture = nimiipuu_culture	religion = pomo_shamanism }
+	define_pop = {	type = tribesmen	size = 1.000	culture = nimiipuu_culture	religion = pomo_shamanism }
 }
 bitterroot = {
 	define_pop = {	type = peasants	size = 2.200	culture = saleesh_culture	religion = salishan_totemism }
@@ -2563,21 +2568,21 @@ sletewsi = {
 	define_pop = {	type = peasants	size = 2.200	culture = kalispel_culture	religion = salishan_totemism }
 }
 aqanqmi = {
-	define_pop = {	type = tribesmen	size = 2.180	culture = ktunaxa_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 1.180	culture = ktunaxa_culture	religion = salishan_totemism }
 }
 yaqan_nukiy = {
-	define_pop = {	type = peasants	size = 2.000	culture = ktunaxa_culture	religion = salishan_totemism }
+	define_pop = {	type = peasants	size = 1.000	culture = ktunaxa_culture	religion = salishan_totemism }
 	define_pop = {	type = tribesmen	size = 0.212	culture = ktunaxa_culture	religion = salishan_totemism }
 }
 akinkumasnuqit = {
-	define_pop = {	type = peasants	size = 2.000	culture = ktunaxa_culture	religion = salishan_totemism }
+	define_pop = {	type = peasants	size = 1.000	culture = ktunaxa_culture	religion = salishan_totemism }
 	define_pop = {	type = tribesmen	size = 0.212	culture = ktunaxa_culture	religion = salishan_totemism }
 }
 aq_am = {
 	define_pop = {	type = nobles	size = 0.020	culture = ktunaxa_culture	religion = salishan_totemism }
 	define_pop = {	type = clergy	size = 0.050	culture = ktunaxa_culture	religion = salishan_totemism }
 	define_pop = {	type = burghers	size = 0.400	culture = ktunaxa_culture	religion = salishan_totemism }
-	define_pop = {	type = peasants	size = 5.000	culture = ktunaxa_culture	religion = salishan_totemism }
+	define_pop = {	type = peasants	size = 2.000	culture = ktunaxa_culture	religion = salishan_totemism }
 }
 akisq_nuk = {
 	define_pop = {	type = peasants	size = 1.000	culture = ktunaxa_culture	religion = salishan_totemism }
@@ -2653,9 +2658,8 @@ lhaq_temish = {
 	define_pop = {	type = nobles	size = 0.020	culture = lummi_culture	religion = salishan_totemism }
 	define_pop = {	type = clergy	size = 0.050	culture = lummi_culture	religion = salishan_totemism }
 	define_pop = {	type = burghers	size = 0.600	culture = lummi_culture	religion = salishan_totemism }
-	define_pop = {	type = peasants	size = 3.750	culture = lummi_culture	religion = salishan_totemism }
-	define_pop = {	type = tribesmen	size = 1.000	culture = lummi_culture	religion = salishan_totemism }
-	define_pop = {	type = slaves	size = 1.000	culture = halkomelem_culture	religion = salishan_totemism }
+	define_pop = {	type = peasants	size = 1.750	culture = lummi_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 2.000	culture = lummi_culture	religion = salishan_totemism }
 }
 sto_lo = {
 	define_pop = {	type = peasants	size = 2.750	culture = halkomelem_culture	religion = salishan_totemism }
@@ -2733,11 +2737,11 @@ osoyoos = {
 	define_pop = {	type = nobles	size = 0.020	culture = okanagan_culture	religion = salishan_totemism }
 	define_pop = {	type = clergy	size = 0.050	culture = okanagan_culture	religion = salishan_totemism }
 	define_pop = {	type = burghers	size = 0.400	culture = okanagan_culture	religion = salishan_totemism }
-	define_pop = {	type = peasants	size = 3.000	culture = okanagan_culture	religion = salishan_totemism }
-	define_pop = {	type = tribesmen	size = 2.000	culture = okanagan_culture	religion = salishan_totemism }
+	define_pop = {	type = peasants	size = 1.000	culture = okanagan_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 1.000	culture = okanagan_culture	religion = salishan_totemism }
 }
 similkameen = {
-	define_pop = {	type = peasants	size = 1.000	culture = okanagan_culture	religion = salishan_totemism }
+	define_pop = {	type = peasants	size = 2.000	culture = okanagan_culture	religion = salishan_totemism }
 }
 okanagan = {
 	define_pop = {	type = peasants	size = 2.000	culture = okanagan_culture	religion = salishan_totemism }
@@ -2758,7 +2762,7 @@ ntiltxitk = {
 	define_pop = {	type = nobles	size = 0.020	culture = sinixt_culture	religion = salishan_totemism }
 	define_pop = {	type = clergy	size = 0.050	culture = sinixt_culture	religion = salishan_totemism }
 	define_pop = {	type = burghers	size = 0.400	culture = sinixt_culture	religion = salishan_totemism }
-	define_pop = {	type = peasants	size = 5.000	culture = sinixt_culture	religion = salishan_totemism }
+	define_pop = {	type = peasants	size = 2.000	culture = sinixt_culture	religion = salishan_totemism }
 }
 stxtilusten = {
 	define_pop = {	type = tribesmen	size = 1.120	culture = sinixt_culture	religion = salishan_totemism }
@@ -2827,7 +2831,10 @@ sk_atsin = {
 	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }
 }
 skitsetsen = {
-	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = nobles	size = 0.020	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = clergy	size = 0.050	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = burghers	size = 0.400	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = peasants	size = 2.000	culture = shuswap_culture	religion = salishan_totemism }
 }
 st_uxwtews = {
 	define_pop = {	type = peasants	size = 1.000	culture = shuswap_culture	religion = salishan_totemism }
@@ -2836,10 +2843,7 @@ splatsin = {
 	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }
 }
 tk_emlups = {
-	define_pop = {	type = nobles	size = 0.020	culture = shuswap_culture	religion = salishan_totemism }
-	define_pop = {	type = clergy	size = 0.050	culture = shuswap_culture	religion = salishan_totemism }
-	define_pop = {	type = burghers	size = 0.400	culture = shuswap_culture	religion = salishan_totemism }
-	define_pop = {	type = peasants	size = 2.000	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }
 }
 qw_ewt = {
 	define_pop = {	type = peasants	size = 1.000	culture = shuswap_culture	religion = salishan_totemism }
@@ -2856,13 +2860,13 @@ stswecen_c = {
 	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }
 }
 llenllenet_ten = {
-	define_pop = {	type = peasants	size = 2.000	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }
 }
 sexqeltqin = {
 	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }
 }
 simpcw = {
-	define_pop = {	type = peasants	size = 1.000	culture = shuswap_culture	religion = salishan_totemism }
+	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }
 }
 xat_sull = {
 	define_pop = {	type = tribesmen	size = 1.120	culture = shuswap_culture	religion = salishan_totemism }

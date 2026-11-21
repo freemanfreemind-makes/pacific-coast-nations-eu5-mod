@@ -22703,12 +22703,12 @@ oweekeno = { topography = mountains vegetation = forest climate = continental re
 nuxalc = { topography = mountains vegetation = woods climate = continental religion = salishan_totemism culture = nuxalc_culture raw_material = fish natural_harbor_suitability = 0.00}
 kitasoo = { topography = mountains vegetation = woods climate = continental religion = salishan_totemism culture = tsimshian_culture raw_material = lumber natural_harbor_suitability = 0.00}
 heiltsuk = { topography = mountains vegetation = woods climate = continental religion = dene_totemism culture = tsimshian_culture raw_material = fish natural_harbor_suitability = 0.00}
-haisla = { topography = mountains vegetation = woods climate = continental religion = salishan_totemism culture = haisla_culture raw_material = fur natural_harbor_suitability = 0.00}
+haisla = { topography = mountains vegetation = woods climate = continental religion = salishan_totemism culture = haisla_culture raw_material = fur natural_harbor_suitability = 0.10}
 kwakwala_range = { topography = mountain_wasteland vegetation = desert climate = subpolar}
 sm_algyax = { topography = mountains vegetation = woods climate = continental religion = dene_totemism culture = tsimshian_culture raw_material = fish natural_harbor_suitability = 1.00}
 nisga_a = { topography = mountains vegetation = forest climate = subpolar religion = dene_totemism culture = tsimshian_culture raw_material = lumber}
-gitxsanimaax = { topography = mountains vegetation = woods climate = continental religion = dene_totemism culture = tsimshian_culture raw_material = fur natural_harbor_suitability = 0.00}
-kiis_gwaay = { topography = hills vegetation = forest climate = oceanic religion = dene_totemism culture = haida_culture raw_material = fish natural_harbor_suitability = 0.00}
+gitxsanimaax = { topography = mountains vegetation = woods climate = continental religion = dene_totemism culture = tsimshian_culture raw_material = fiber_crops natural_harbor_suitability = 0.30}
+kiis_gwaay = { topography = hills vegetation = forest climate = oceanic religion = dene_totemism culture = haida_culture raw_material = fish natural_harbor_suitability = 0.30}
 gwaay_haanas = { topography = mountains vegetation = forest climate = oceanic religion = dene_totemism culture = haida_culture raw_material = tin natural_harbor_suitability = 0.00}
 saanya = { topography = mountains vegetation = woods climate = continental religion = dene_totemism culture = tlingit_culture raw_material = stone natural_harbor_suitability = 0.00}
 taant_a = { topography = mountains vegetation = woods climate = continental religion = dene_totemism culture = tlingit_culture raw_material = lumber natural_harbor_suitability = 0.00}

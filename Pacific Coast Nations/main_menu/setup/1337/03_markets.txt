@@ -144,13 +144,15 @@ market_manager = {
 	#Andes
 	add_market = chinchay
 	add_market = hatunqulla
-	#add_market = limari					#Living Americas Mod
-	#add_market = lafkenmapu				#Living Americas Mod
+	add_market = limari					#Living Americas Mod
+	add_market = lafkenmapu				#Living Americas Mod
 
 	#Amazon
 	#add_market = cunhambebe				#Living Americas Mod
 	#add_market = kariri					#Living Americas Mod
 	#add_market = potiguara				#Living Americas Mod
+	#add_market = ibicui				#Living Americas Mod
+	#add_market = tubicha_mini			#Living Americas Mod
 
 	#Oceania
 	add_market = o_ahu
@@ -207,4 +209,3 @@ market_manager = {
 	add_market = suisin
 
 }
-

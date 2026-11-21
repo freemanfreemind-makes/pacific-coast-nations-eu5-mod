@@ -1,0 +1,265 @@
+﻿pcn_clothes = {
+	usage = game
+	selection_behavior = weighted_random
+    priority = 1
+
+	## Pacific Coast Nations ##
+	pcn_commoner = {
+			dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_commoner
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_commoner_trigger = { CULTURE_GFX = pcn_gfx }
+			}
+		}
+	}
+
+	pcn_low_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_low_nobility_trigger = { CULTURE_GFX = pcn_gfx }
+			}
+		}
+	}
+
+	pcn_high_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				portrait_high_nobility_trigger = { CULTURE_GFX = pcn_gfx }
+			}
+		}
+	}
+
+	pcn_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				portrait_royalty_trigger = { CULTURE_GFX = pcn_gfx }
+			}
+		}
+	}
+
+	pcn_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				portrait_imperial_trigger = { CULTURE_GFX = pcn_gfx }
+			}
+		}
+	}
+
+	#pcn_clergy = {
+	#	dna_modifiers = {
+	#		accessory = {
+	#			mode = add
+	#			gene = clothes
+	#			template = pcn_clergy
+	#			range = { 0 1 } # For the randomness to work correctly
+	#		}
+	#	}
+	#	weight = {
+	#		base = 0
+	#		modifier = {
+	#			add = 1000
+	#			portrait_clergy_trigger = {	RELIGION_GFX = pcn_gfx }
+	#		}
+	#	}
+	#}
+
+	pcn_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				exists = this
+				portrait_clothing_trigger = { CULTURE_FLAG = pcn_gfx }
+				portrait_wear_armor_trigger = yes
+			}
+		}
+	}
+
+# PCN South Clothes
+
+	pcn_south_commoner = {
+			dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_south_commoner
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_commoner_trigger = { CULTURE_GFX = pcn_south_gfx }
+			}
+		}
+	}
+
+	pcn_south_low_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_south_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_low_nobility_trigger = { CULTURE_GFX = pcn_south_gfx }
+			}
+		}
+	}
+
+	pcn_south_high_nobility = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_south_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 300
+				portrait_high_nobility_trigger = { CULTURE_GFX = pcn_south_gfx }
+			}
+		}
+	}
+
+	pcn_south_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_south_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				portrait_royalty_trigger = { CULTURE_GFX = pcn_south_gfx }
+			}
+		}
+	}
+
+	pcn_south_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_south_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 500
+				portrait_imperial_trigger = { CULTURE_GFX = pcn_south_gfx }
+			}
+		}
+	}
+
+	pcn_south_clergy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_south_clergy
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				portrait_clergy_trigger = {	RELIGION_GFX = pcn_south_gfx }
+			}
+		}
+	}
+
+	pcn_south_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = pcn_south_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				exists = this
+				portrait_clothing_trigger = { CULTURE_FLAG = pcn_south_gfx }
+				portrait_wear_armor_trigger = yes
+			}
+		}
+	}
+
+}

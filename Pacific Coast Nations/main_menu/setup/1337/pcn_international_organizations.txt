@@ -14,21 +14,21 @@ international_organization_manager = {
 	add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { CIS SKL MKH SQH TWN }
+		members = { CIS0 SKL MKH SQH TWN }
 	}
 
 	#Columbia Valley
 	add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { YKM SNK PLS }
+		members = { YKM0 SNK0 PLS0 }
 	}
 
 	#Snake River
 	add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { SCN QLP SQZ }
+		members = { SCN0 QLP0 SQZ0 }
 	}
 
 	#Squamish
@@ -49,7 +49,7 @@ international_organization_manager = {
 	add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { WSN SNO LHQ }
+		members = { WSN0 SNO0 LHQ }
 	}
 
 	#Central Coast
@@ -63,133 +63,35 @@ international_organization_manager = {
 	add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { TLK ALX QUU }
+		members = { TLK0 ALX0 QUU0 }
 	}
 
 	#Yurok Coast
 	add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { TTT TOL2 OOH WYT }
+		members = { TTT0 TOL0 OOH0 WYT0 }
 	}
 
 	#North Interior
 	add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { DKL WST TQN }
+		members = { DKL0 WST0 TQN0 }
 	}
 
 	#Tsimshian & Nisga'a
 	add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { NGA TMH }
+		members = { NGA0 TMH }
 	}
 
 	#Western Vancouver Island
 	add_international_organization = {
 		type = tribal_confederation
 		creation_date = 1337.1.1
-		members = { KMK KMK2 HLM1 WSN }
+		members = { KMK KMK2 HLM1 WSN0 }
 	}
-#######################OLD keep just in case################################
-	#Yupik
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { YPG ULG KGM KSG TGI NHG OUL KIG UAK CGH }
-	#}
-
-	#Nadene - Northern
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { TLG DNN EYK WST DKL TQN }
-	#}
-
-	#Haida & Tsimishian
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { XDA TMH }
-	#}
-
-	#Wakashan
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { KWA HLA HLK NUX OOW NOO MKH }
-	#}
-
-	#Coast Salish
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { HLM KMK SQH WSN LHQ LHT TWN SKL TSA TLK ALX SNO CIS }
-	#}
-
-	#Interior Salish
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { SWP LWT NPK SLX SNX QLP SNK SQZ SCN SLH }
-	#}
-
-	#Northern Penutian
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { CNK KLP QUU TKL MLA EKK MDK SHT WLP YKM PLS NIM }
-	#}
-
-	#Shoshoni
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { NMU PKD BNK HVD AGD DKD MNH }
-	#}
-
-	#Nadene - Southern
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { DNE TTT TOL2 MTL TNW NNG HPA  }
-	#}
-
-	#Algic
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { OOH WYT }
-	#}
-
-	#Yuki
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { YKI MWL }
-	#}
-
-	#Hokan
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { PMO SST AMW WHW HHK KRU }
-	#}
-
-	#Southern Penutian + Chumash for stability
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { PWN WIN MDU NSN NML MWK NYK OHL SNA SYK FYK TLI CMH }
-	#}
-
-	#Chumash & Takic -grouped for stability-
-	#add_international_organization = {
-	#	type = tribal_confederation
-	#	creation_date = 1337.1.1
-	#	members = { CMH TNV TAQ TXW }
-	#}
 
 }

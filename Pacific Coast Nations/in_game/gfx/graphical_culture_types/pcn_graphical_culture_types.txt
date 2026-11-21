@@ -5,3 +5,11 @@
 		10 = pcn_ethnicity
 	}
 }
+
+pcn_south_gfx = {
+	priority = 300 # region
+	culture_tag = pcn_south_gfx
+	ethnicities = {
+		10 = pcn_south_ethnicity
+	}
+}

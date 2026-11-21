@@ -1,7 +1,3 @@
-discovered_regions = {
-	#
-}
-
 discovered_areas = {
 	northwest_coast_area
 	columbia_interior_area
